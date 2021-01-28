@@ -6,7 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Button from 'react-bootstrap/Button'
-import Image from 'next/image'
+// import Image from 'next/image'
 import logoAmazonia from '../../assets/logoAmazoniaMobail.png'
 import {Container } from './styles'
 

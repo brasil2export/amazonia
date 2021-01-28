@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Image from 'next/image'
+// import Image from 'next/image'
 import Carousel, { CarouselProps } from 'react-bootstrap/Carousel'
 import { Container } from './style'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -26,8 +26,8 @@ const CarouselItem: React.FC<carouselProps> = ({text,title, image, width, height
       <div className="containerCarrosel">
         <Carousel   {...props}>
         <Carousel.Item>
-             <Image width={width || 800 } height= {height || 800} src={image[0]} alt="Amazonia Therapy vitaoils" quality={100}  /> 
-            {/* <img src={image[0]} alt=""/> */}
+             {/* <Image width={width || 800 } height= {height || 800} src={image[0]} alt="Amazonia Therapy vitaoils" quality={100}  />  */}
+            <img src={image[0]} alt=""/>
            {text && (
               <Carousel.Caption className="containerCaption">
                 <h3>{title[0]}</h3>
@@ -36,8 +36,8 @@ const CarouselItem: React.FC<carouselProps> = ({text,title, image, width, height
            )}
           </Carousel.Item>
           <Carousel.Item>
-             <Image width={width || 800} height= {height || 800} src={image[1]} alt="Amazonia Therapy vitaoils" quality={100} /> 
-             {/* <img src={image[1]} alt=""/> */}
+             {/* <Image width={width || 800} height= {height || 800} src={image[1]} alt="Amazonia Therapy vitaoils" quality={100} />  */}
+             <img src={image[1]} alt=""/>
 
              {text && (
               <Carousel.Caption className="containerCaption">
@@ -47,8 +47,8 @@ const CarouselItem: React.FC<carouselProps> = ({text,title, image, width, height
            )}
           </Carousel.Item>
           <Carousel.Item>
-             <Image width={width || 800} height= {height || 800} src={image[2]} alt="Amazonia Therapy vitaoils"quality={100}  /> 
-             {/* <img src={image[2]} alt=""/> */}
+             {/* <Image width={width || 800} height= {height || 800} src={image[2]} alt="Amazonia Therapy vitaoils"quality={100}  />  */}
+             <img src={image[2]} alt=""/>
 
              {text && (
               <Carousel.Caption className="containerCaption">

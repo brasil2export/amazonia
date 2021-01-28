@@ -1,6 +1,6 @@
 
 import { ContainerGrid } from './styles'
-import Image from 'next/image'
+// import Image from 'next/image'
 import MaisIcon from '../../assets/mais.svg'
 
 interface productItemProps{

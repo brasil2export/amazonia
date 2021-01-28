@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 import Menu from '../components/Menu'
 
@@ -30,7 +30,8 @@ const AboutUs: React.FC = () => {
       <Conteiner>
 
         <Banner>
-          <Image src={bgAboutUs} layout="fill" quality={90}/>
+          {/* <Image src={bgAboutUs} layout="fill" quality={90}/> */}
+          <img src={bgAboutUs} alt=""/>
         </Banner>
 
         <div className="wrapperContent">
@@ -54,13 +55,19 @@ const AboutUs: React.FC = () => {
         <div className="grid">
 
           <div className="item">
-            <Image src={photoGrid1} layout="fill"/>
+            {/* <Image src={photoGrid1} layout="fill"/> */}
+            <img src={photoGrid1} />
+            
           </div>
           <div className="item">
-          <Image src={photoGrid2} layout="fill"/>
+          {/* <Image src={photoGrid2} layout="fill"/> */}
+          <img src={photoGrid2} />
+
+
           </div>
           <div className="item">
-          <Image src={photoGrid3} layout="fill"/>
+          <img src={photoGrid3} />
+
           </div>
         </div>
 

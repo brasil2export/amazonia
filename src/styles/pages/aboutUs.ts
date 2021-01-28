@@ -78,6 +78,16 @@ export const Conteiner = styled.main`
             flex-grow: 3;
             margin: 16px;
 
+            img{
+                min-width: 100%;
+                min-height: 100%;
+                max-width: 100%;
+                max-height: 100%;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
             @media (max-width: 800px){
 
                 max-width: 600px;
@@ -93,6 +103,13 @@ export const Banner = styled.div`
    width: 100%;
    height: 600px;
    img{
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
     @media (max-width: 1000px){
 
         object-fit: cover;

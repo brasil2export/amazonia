@@ -1,6 +1,5 @@
 import React from 'react'
 import Head from 'next/head'
-import Image from 'next/image'
 import Menu from '../components/Menu'
 import Carousell from '../components/Carousel'
 import Footer from '../components/Footer'
