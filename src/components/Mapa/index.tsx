@@ -40,7 +40,7 @@ const ACCESS_TOKEN_MAP_BOX = `access_token=${token}`
       >
           
       <Popup closeButton={false} minWidth={248} maxWidth={248} className="map-popup" >
-          Las das meninas
+          Sweeteez
       </Popup>
   
       </Marker>    
