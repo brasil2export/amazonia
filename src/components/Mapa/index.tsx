@@ -39,7 +39,7 @@ const ACCESS_TOKEN_MAP_BOX = `access_token=${token}`
           icon={mapIcon}
       >
           
-      <Popup closeButton={false} minWidth={248} maxWidth={248} className="map-popup" >
+      <Popup autoPan={true} closeButton={true} minWidth={248} maxWidth={248} className="map-popup" >
           Sweeteez
       </Popup>
   

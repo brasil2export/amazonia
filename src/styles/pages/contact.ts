@@ -1,32 +1,98 @@
 import styled from 'styled-components'
 
+import bg from '../../assets/bgpredio.jpg'
 
-
-export const Container = styled.header`
+export const Container = styled.div`
 
 .main{
   height: calc(100vh - 100px);
   width: 100%;
   display: flex;
   flex-wrap:wrap;
-  padding: 60px;
+ 
 
-  .adress{
-    width: 50%;
+  .containerAdreess{
+
+    width: 60%;
+    height: 100%;
+    display: flex;
+      flex-direction: column;
+
+    
+    .contentAdress{
+      padding: 60px;
+      padding-bottom: 0;
+      display: flex;
+      justify-content: space-between;
+
+
+      .adreess{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h5{
+          margin-bottom: 24px;
+        }
+
+      }
+      .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      .socialMedia{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        a{
+        margin-right: 24px;
+        transition: 400ms;
+
+        svg{
+          width: 36px;
+        }
+
+        path{
+            transition: 400ms;
+            fill:  ${props => props.theme.colors.black} !important;
+        }
+        &:hover path{
+        
+            fill:  ${props => props.theme.colors.primary} !important;
+        }
+        
+        }
+    }
+    }
+
+
   }
 }
   .mapcontainer {
-    width: 50%;
+    width: 40%;
     height: 100%;
 
 
   }
 
+  .form{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
 
+  }
   form {
+    max-width: 500px;
     margin-top: 24px;
     padding: 32px;
-    height: 100%;
+
     width: 100%;
     legend{
       text-align: center;
@@ -69,6 +135,7 @@ export const Container = styled.header`
         outline: none;
         border: none;
         border-bottom: 1px solid black;
+        background-color: transparent;
 
    
    

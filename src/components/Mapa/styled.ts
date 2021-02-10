@@ -15,7 +15,7 @@ export const Container = styled.header`
 
      .leaflet-popup-content-wrapper{
           
-    transform: translateX(199px);
+  
 
     .leaflet-popup-content{
          max-width: 200px;

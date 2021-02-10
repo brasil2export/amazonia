@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 
-export const Container = styled.header`
+export const Container = styled.div`
 
 .containerCarrosel{
     margin-top: 40px;
