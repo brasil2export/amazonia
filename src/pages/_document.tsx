@@ -44,7 +44,7 @@ export default class MyDocument extends Document {
       <Html lang="pt">
         <Head>
           <meta charSet="utf-8" />
-          <meta name="description" content="Brazilian Smoothing protein treatment. vita oils, zero formaldehyde, order now. "/>
+          <meta name="description" content="Luxury Hair Protein Products"/>
           <meta name="keywords" content="
           professional cosmetics,
           color-treated hair,

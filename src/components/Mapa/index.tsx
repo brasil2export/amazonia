@@ -16,15 +16,15 @@ const ACCESS_TOKEN_MAP_BOX = `access_token=${token}`
     iconUrl:MarkIcon ,
 
     iconSize: [58, 68],
-    iconAnchor: [29, 68],
+    iconAnchor: [0, 68],
   })
 
   return (
  <Container>
    { Map && (
       <Map 
-      center={[-23.6080245,-46.8410031]}
-      zoom={17}
+      center={[-23.6067257,-46.8395853]}
+      zoom={18}
       style={{ width: '100%', height: '100%' }}
       >
   
@@ -35,7 +35,7 @@ const ACCESS_TOKEN_MAP_BOX = `access_token=${token}`
 
   
       <Marker 
-          position={[-23.6074881,-46.8396939]}
+          position={[-23.6066257,-46.8395853]}
           icon={mapIcon}
       >
           
