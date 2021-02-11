@@ -19,14 +19,14 @@ export const Container = styled.header`
        width: 100%;
         left: 0;
         z-index: 1;
-        bottom:5px;
+        bottom:0px;
         background: rgba(0, 0, 0, 0.5);
 
        @media(max-width: 700px){
         width: 100%;
         left: 0;
         z-index: 1;
-        bottom:5px;
+        bottom:0px;
         background-color: #000000;
 
         h3{

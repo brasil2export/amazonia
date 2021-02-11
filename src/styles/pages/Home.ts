@@ -205,7 +205,6 @@ export const WrapperContent = styled.main`
   width: fit-content;
   display: grid;
   grid-template-columns:   repeat(3, minmax(100px, 400px));  
-  grid-template-row:   repeat(2, 1fr);  
 
   justify-items: center;
   margin: 0 auto;
@@ -240,9 +239,13 @@ export const Banner = styled.div`
 
     img{
       object-fit: cover;
-      filter: brightness(0.4);
+      filter: brightness(0.8);
       width: 100%;
       height: 100%;
+
+      @media(max-width: 800px){
+      object-position: 75% 100%;
+    }
      
     }
 

@@ -1,11 +1,14 @@
 import React from 'react'
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
-import { FaInstagram, FaTwitter, FaFacebook, FaYoutube } from 'react-icons/fa';
+import { FaInstagram, FaTwitter, FaFacebook, FaYoutube, FaPhone} from 'react-icons/fa';
+import {GoLocation} from 'react-icons/go'
+import {SiGmail} from 'react-icons/si'
+
 import Menu from '../components/Menu'
 import Footer  from '../components/Footer'
 
-
+import streetBG from '../assets/streetBG.jpg'
 import { Container } from '../styles/pages/contact'
 
 
@@ -26,44 +29,69 @@ const Contact: React.FC = () => {
       </Head>
       <Menu/>
       <div className="main">
-        <div className="containerAdreess">
-      
-       <div className="contentAdress">
-        <div className="adreess">
-              <h5>
-                Adreess
-              </h5>
-              <p>Rua João Paulo Ablas, 1400</p>
-              <p>Galpão Número 4</p>
-              <p>Bairro Jardim da Glória</p>
-              <p>Cotia, SP, Brasil</p>
-              <p>CEP: 06711-250</p>
-            </div>
+        <img id="bg" src={streetBG} alt=""/>
+        <div className="contactUSTitle">
+          <h1>Contact Us</h1>        
+        </div>
+
+        <div className="containerContent">
+        <div className="containerAdreess">      
+          <div className="contentAdress">
+            <div className="adreess">
+                <div className="icon">
+                  <GoLocation size={32}/>
+                </div>
+                <div className="text">
+                  <h5>
+                    Adreess
+                  </h5>
+                  <p>Rua João Paulo Ablas, 1400
+                  Galpão Número 4
+                  Bairro Jardim da Glória
+                  Cotia, SP, Brasil
+                  CEP: 06711-250</p>
+                </div>
+              </div>
 
             <div className="contact">
+              <div className="title">
               <h5>SEJA UM DISTRIBUIDOR</h5>
-              <a href="tel:+551136377711">+55 11 3637 7711</a>
-              <a href="mailto:info@amazoniatherapy.com.br">info@amazoniatherapy.com.br</a>
-            </div>
+              </div>
+                
+               <div className="containterPhoneAndEmail">
+                <div className="phone">
+          
+                    <a href="tel:+551136377711"><FaPhone size={32}/><span>+55 11 3637 7711</span> </a>
+                  </div>
+                  <div className="email">
+                    <a href="mailto:info@amazoniatherapy.com.br"><SiGmail size={32}/><span>info@amazoniatherapy.com.br</span></a>
+                  </div>
+               </div>
+               
+              </div>
 
-          <div className="socialMedia">
-            <a href="">
-              <FaInstagram size={32}/>
-            </a>
-            <a href="">
-            <FaFacebook size={32}/>
-            </a>
-            <a href="">
-            <FaTwitter size={32}/>
-            </a>
-            <a href="">
-            <FaYoutube size={32}/>
-            </a>
+            <div className="socialMedia">
+              <a href="">
+                <FaInstagram size={32}/>
+              </a>
+              <a href="">
+              <FaFacebook size={32}/>
+              </a>
+              <a href="">
+              <FaTwitter size={32}/>
+              </a>
+              <a href="">
+              <FaYoutube size={32}/>
+              </a>
+          </div>
+          </div>
+
+
+          
+
         </div>
-       </div>
-
-
-          <div className="form">
+        
+        <div className="form">
           <form action="" method="post">
             <legend>Contact us</legend>
             <fieldset>
@@ -83,13 +111,11 @@ const Contact: React.FC = () => {
             <button type="submit">Submit</button>
           </form>
         </div>
-
-        </div>
-
                
-        <div className="mapcontainer">
-        <Map/>
         </div>
+        
+  
+       
       </div>
 
      <Footer/>

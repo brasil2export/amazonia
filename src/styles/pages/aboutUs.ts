@@ -109,10 +109,11 @@ export const Banner = styled.div`
     max-height: 100%;
     width: 100%;
     height: 100%;
-    object-fit: fill;
-    @media (max-width: 1000px){
+    object-fit: cover;
+    object-position: 100% 30%;
+    @media (max-width: 700px){
 
-        object-fit: cover;
+        object-position: 70% 100%;
     }
    }
 

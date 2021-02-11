@@ -9,9 +9,11 @@ import ProductItem from '../components/ProductItem'
 import AmazoniaVitaoils from '../assets/amazoniaVitaoils.png'
 import AmazoniaHomeCare from '../assets/amazoniaHomeCare.png'
 import AmazoniaBotoxClose from '../assets/amazoniaBotoxClose.png'
-import salaoBG from '../assets/salao.jpg'
-import productBG from '../assets/product.jpg'
-import shampooBG from '../assets/shampoo.jpg'
+import productBG from '../assets/IMAGEM_HOME_001.jpg'
+import salaoBG from '../assets/IMAGEM_HOME_004.jpg'
+
+import shampooBG from '../assets/IMAGEM_HOME_003.jpg'
+
 
 //products Img
 import amazoniaTherapyBotoxAberto from '../assets/products/amazoniaTherapyBotoxFechado.png'

@@ -7,7 +7,7 @@ import Menu from '../components/Menu'
 import {Conteiner, Banner} from '../styles/pages/aboutUs'
 
 
-import bgAboutUs from '../assets/bgAbout-us.jpg'
+import bgAboutUs from '../assets/IMAGEM_HOME_002.jpg'
 import photoGrid1 from '../assets/photoGrid1.jpg'
 import photoGrid2 from '../assets/photoGrid2.jpg'
 import photoGrid3 from '../assets/photoGrid3.jpg'
