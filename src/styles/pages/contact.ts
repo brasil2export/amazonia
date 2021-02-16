@@ -5,7 +5,7 @@ import bg from '../../assets/streetBG.jpg'
 export const Container = styled.div`
 
 .main{
-  height: calc(100vh - 100px);
+  min-height: calc(100vh - 100px);
   width: 100%;
   display: flex;
   flex-wrap:wrap;  
@@ -34,6 +34,7 @@ export const Container = styled.div`
    justify-content: center;
    z-index: 2;
    color: white;
+   padding-top: 32px;
 
    @media(max-width: 900px){
     padding: 5%;
