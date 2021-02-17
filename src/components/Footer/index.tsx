@@ -10,7 +10,7 @@ import IconTwitter from '../../assets/twitter.svg'
 import IconYoutube from '../../assets/youtube.svg'
 import IconInsta from '../../assets/instagram.svg'
 import LogoFooter from '../../assets/logoFooter.png'
-
+import { FaInstagram, FaTwitter, FaFacebook, FaYoutube} from 'react-icons/fa';
 
 import Link  from 'next/link'
 // import Image from 'next/image'
@@ -61,7 +61,7 @@ return (
 
       <div className="adressFooter">
         <div className="adress">
-          <h5>ENDEREÇO</h5>
+          <h5>Address</h5>
             <p>Rua João Paulo Ablas, 1400</p>
             <p> Galpão Número 4</p>
             <p> Bairro Jardim da Glória</p>
@@ -72,16 +72,16 @@ return (
         <div className="socialMedia">
 
           <a href="">
-            <IconTwitter/>
+          <FaTwitter size={32}/>
           </a>
           <a href="">
-            <IconYoutube/>
+          <FaFacebook size={32}/>
           </a>
           <a href="">
-            <IconFace/>
+          <FaYoutube size={32}/>
           </a>
           <a href="">
-            <IconInsta/>
+            <FaInstagram size={32}/>
           </a>
         </div>
       </div>

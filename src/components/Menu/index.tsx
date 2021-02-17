@@ -43,7 +43,7 @@ return (
 
         <NavDropdown title="Products" id="collasible-nav-dropdown">
           <Link  href="/products" passHref>
-            <NavDropdown.Item>Botox</NavDropdown.Item>
+            <NavDropdown.Item>professional</NavDropdown.Item>
           </Link> 
 
           <NavDropdown.Divider />
@@ -55,7 +55,7 @@ return (
           <NavDropdown.Divider />
 
           <Link href="/products" passHref>
-            <NavDropdown.Item>Ampola</NavDropdown.Item>
+            <NavDropdown.Item>Finalizadores</NavDropdown.Item>
           </Link>
         </NavDropdown>
 

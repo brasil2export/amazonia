@@ -27,6 +27,10 @@ export const ContentFooter = styled.div`
    
 
    .logoFooter{
+
+       img{
+           height: 150px;
+       }
        @media(max-width: 900px){
            width: 100%;
            display: flex;
