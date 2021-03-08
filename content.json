@@ -1,34 +1,41 @@
 {
     "products":[
-        {
+        {   
             "image":"../assets/products/amazoniaTherapyBotoxAberto.png",
             "title": "BOTOX",
-            "text": "BI-BTX is a hair treatment that promotes the creation of new structural bridges in the hair ber that guarantee the strengthening of weakened areas. Rich in broin, Hydrolyzed Keratin and Macadamia Oil, it maintains hair nutrition at an ideal hydration level against dryness. Result: Hair deeply reconstructed, protected and with softness and shine."
+            "text": "BI-BTX is a hair treatment that promotes the creation of new structural bridges in the hair ber that guarantee the strengthening of weakened areas. Rich in broin, Hydrolyzed Keratin and Macadamia Oil, it maintains hair nutrition at an ideal hydration level against dryness. Result: Hair deeply reconstructed, protected and with softness and shine.",
+            "alt":"Amazonia Therapy Botox hair treatment"
         },
         {
             "image":"../assets/products/amazoniaTherapyProtein1L.png",
             "title": "PROTEIN VITAOILS",
-            "text": "Indicated as 100% Alignment, Vitaoils is enriched with coee extract and hazelnut oil has emollient properties, nourishing, moisturizing, preventing drying and dehydration of hair. Easily absorbed by the hair cortex, it has an ecient moisturizing action, being a great treatment option for dry hair."
+            "text": "Indicated as 100% Alignment, Vitaoils is enriched with coee extract and hazelnut oil has emollient properties, nourishing, moisturizing, preventing drying and dehydration of hair. Easily absorbed by the hair cortex, it has an ecient moisturizing action, being a great treatment option for dry hair.",
+            "alt": "Amazonia Therapy Protein Vitaoils 1l"
         },
         {
             "image":"../assets/products/amazoniaTherapyShampooHomeCare.png",
             "title": "SHAMPOO VITAOILS",
-            "text": "With its texture and creamy formula, promotes the cleaning of the strands with a moisturizing, reconstructive and protective action on the ber of multi-processed hair, the Vitaoils Shampoo from Amazônia Therapy is the perfect choice for those who have chemically damaged hair."
+            "text": "With its texture and creamy formula, promotes the cleaning of the strands with a moisturizing, reconstructive and protective action on the ber of multi-processed hair, the Vitaoils Shampoo from Amazônia Therapy is the perfect choice for those who have chemically damaged hair.",
+            "alt": "Amazonia Therapy Shampoo Vitaoils"
         },
         {
             "image":"../assets/products/amazoniaTherapyConditionerHomeCare.png",
             "title": "CONDITIONER VITAOILS",
-            "text": "Complex of oils and vitamins with exclusive technology composed of assets that interact strongly with the hair ber, revitalizing from its deepest layers to the most external ones. Leaves hair healthier, softer, shiny, and resistant to external aggressions."
+            "text": "Complex of oils and vitamins with exclusive technology composed of assets that interact strongly with the hair ber, revitalizing from its deepest layers to the most external ones. Leaves hair healthier, softer, shiny, and resistant to external aggressions.",
+            "alt": "Amazonia Therapy Conditioner Vitaoils"
         },
         {
             "image":"../assets/products/amazoniaTherapySerumHomeCare.png",
             "title": "SERUM VITAOILS",
-            "text": "Vitaoils from Amazônia Therapy protects the hair from the heat of the dryer while promoting brightness, suppleness, softness and discipline without leaving an oily or heavy aspect."
+            "text": "Vitaoils from Amazônia Therapy protects the hair from the heat of the dryer while promoting brightness, suppleness, softness and discipline without leaving an oily or heavy aspect.",
+            "alt": "Amazonia Therapy Serum Vitaoils"
+
         },
         {
             "image":"../assets/products/amazoniaTherapyFillerBoxAndAmpoule.png",
             "title": "FILLER AMPOULE",
-            "text": "The Filler Amazonia Therapy ampoule has innovative formula that acts instantly on highly disrupted and dry hair. Rich in Argan oil and sweet almond oil, it repairs the hair fiber, allowing for highly hydrated, shiny and disciplined hair."
+            "text": "The Filler Amazonia Therapy ampoule has innovative formula that acts instantly on highly disrupted and dry hair. Rich in Argan oil and sweet almond oil, it repairs the hair fiber, allowing for highly hydrated, shiny and disciplined hair.",
+            "alt": "Amazoina Therapy Filler Ampoule"
         }
     ]
 }

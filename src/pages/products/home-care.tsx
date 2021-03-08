@@ -1,9 +1,12 @@
+import { useRouter } from 'next/router'
 import styled from 'styled-components'
+
+
 import Menu from '../../components/Menu'
 import Footer from '../../components/Footer'
 import ImageProd from '../../assets/products/amazoniaTherapyShampooHomeCare.png'
 import Amazonia_woman_bg_products from '../../assets/amazonia_woman_bg_products.jpg'
-
+import Products from '../../../content.json'
 const Container = styled.div`
 
 
@@ -43,10 +46,11 @@ max-width: 1400px;
 margin: 0 auto;`
 
 const ProductCart = styled.div`
+justify-self: center;
 display: flex;
 flex-direction: column;
-max-width: 300px;
-
+max-width: 400px;
+min-height: 500px;
 `
 
 const WhapperImageProduct = styled.div`
@@ -79,6 +83,10 @@ p{
 
 
 const HomeCare: React.FC = () => {
+
+  let url = useRouter().asPath
+
+  console.log(url.replace('/products/', '').replace('/', ''))
     return (
         <Container>
             <Menu/>
@@ -91,12 +99,12 @@ const HomeCare: React.FC = () => {
 
             <ProductCart>
               <WhapperImageProduct>
-                   <img src={ImageProd} alt=""/>
+                   <img src={ImageProd} alt={Products.products[2].alt}/>
                 </WhapperImageProduct>
 
                 <WhapperContentText>
-                   <h1>SHAMPOO VITAOILS</h1>
-                   <p>With its texture and creamy formula, promotes the cleaning of the strands with a moisturizing, reconstructive and protective action on the ber of multi-processed hair, the Vitaoils Shampoo from Amazônia Therapy is the perfect choice for those who have chemically damaged hair.</p>
+                   <h1>{Products.products[2].title}</h1>
+                   <p>{Products.products[2].text}</p>
                 </WhapperContentText>
             </ProductCart>
 

@@ -31,7 +31,7 @@ const AboutUs: React.FC = () => {
 
         <Banner>
           {/* <Image src={bgAboutUs} layout="fill" quality={90}/> */}
-          <img src={bgAboutUs} alt=""/>
+          <img src={bgAboutUs} alt="Amazonia About us"/>
         </Banner>
 
         <div className="wrapperContent">
@@ -40,13 +40,16 @@ const AboutUs: React.FC = () => {
                 About Us
               </h1>
               <p>
-              <strong>Amazonia therapy</strong> Cosméticos is a world leader in Professional Cosmetics, with a focus on Smoothing, Softening and Straightening products, in addition to an excellent collection in Home Care and Beauty products.
+              <strong>Amazonia therapy Cosmetics </strong> is a world leader in Professional Cosmetics, with a focus on Smoothing, Softening and Straightening products, in addition to an excellent collection in Home Care and Hair Treatment products.
               </p>
               <p>
-                From straightening Organic Keratins Proteins to Skin Care products, we focus on high quality products, personal and personalized service, fast and transparent delivery, and secure and fast payment, to create a lasting partnership relationship with our dear customers.
+              From straightening Organic Keratins & Proteins to home Care products, we focus on high quality biocompatible hair products, clean & effective formulation based on botanical and safe synthetics ingredients.
+              </p>
+              <p>
+              We focus on the biocompatibility of our products by selecting bioavailable ingredients that does not cause irritation or disrupt the hair or scalp, for immediate or long-term wellbeing of hair & scalp.
               </p>
               <p className="underline">
-                Check out <strong>Amazonia therapy Vita Oil</strong> hair treatment products.
+                Check out Amazonia therapy hair products to maintain healthy balanced hair & scalp.
               </p>
               
           </div>

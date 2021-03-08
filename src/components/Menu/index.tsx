@@ -48,14 +48,14 @@ return (
 
           <NavDropdown.Divider />
 
-          <Link href="/products" passHref>
+          <Link href="/products/home-care" passHref>
             <NavDropdown.Item>Home Care </NavDropdown.Item>
           </Link>
 
           <NavDropdown.Divider />
 
-          <Link href="/products" passHref>
-            <NavDropdown.Item>Finalizadores</NavDropdown.Item>
+          <Link href="/products=Finishers" passHref>
+            <NavDropdown.Item>Finishers</NavDropdown.Item>
           </Link>
         </NavDropdown>
 

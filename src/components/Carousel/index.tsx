@@ -27,7 +27,7 @@ const CarouselItem: React.FC<carouselProps> = ({text,title, image, width, height
         <Carousel   {...props}>
         <Carousel.Item>
              {/* <Image width={width || 800 } height= {height || 800} src={image[0]} alt="Amazonia Therapy vitaoils" quality={100}  />  */}
-            <img src={image[0]} alt=""/>
+            <img src={image[0]} alt={title[0]}/>
            {text && (
               <Carousel.Caption className="containerCaption">
                 <h3>{title[0]}</h3>
@@ -37,7 +37,7 @@ const CarouselItem: React.FC<carouselProps> = ({text,title, image, width, height
           </Carousel.Item>
           <Carousel.Item>
              {/* <Image width={width || 800} height= {height || 800} src={image[1]} alt="Amazonia Therapy vitaoils" quality={100} />  */}
-             <img src={image[1]} alt=""/>
+             <img src={image[1]}alt={title[1]}/>
 
              {text && (
               <Carousel.Caption className="containerCaption">
@@ -48,7 +48,7 @@ const CarouselItem: React.FC<carouselProps> = ({text,title, image, width, height
           </Carousel.Item>
           <Carousel.Item>
              {/* <Image width={width || 800} height= {height || 800} src={image[2]} alt="Amazonia Therapy vitaoils"quality={100}  />  */}
-             <img src={image[2]} alt=""/>
+             <img src={image[2]}alt={title[2]}/>
 
              {text && (
               <Carousel.Caption className="containerCaption">

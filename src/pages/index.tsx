@@ -40,14 +40,18 @@ const Home: React.FC = () => {
   const imagens = [AmazoniaVitaoils, AmazoniaHomeCare, AmazoniaBotoxClose]
   const txt = ["with coffee extract & hazelnut oil", "Shampoo Perfect Smooth", "Amazonia Therapy Botox 500G"]
   const title =["Amazonia Vitaoils ", "Amazonia Home Care", "Amazonia Botox"]
+
+
   const productImages = [ 
-                          amazoniaTherapyBotoxAberto,
-                          amazoniaTherapyProtein1L,
-                          amazoniaTherapyShampooHomeCare,
-                          amazoniaTherapyConditionerHomeCare,
-                          amazoniaTherapySerumHomeCare,
-                          amazoniaTherapyFillerBoxAndAmpoule,
-                        ]
+                      amazoniaTherapyBotoxAberto,
+                      amazoniaTherapyProtein1L,
+                      amazoniaTherapyShampooHomeCare,
+                      amazoniaTherapyConditionerHomeCare,
+                      amazoniaTherapySerumHomeCare,
+                      amazoniaTherapyFillerBoxAndAmpoule
+                    ]
+
+
   return (
     <Container>
       <Head>
@@ -62,15 +66,15 @@ const Home: React.FC = () => {
           <Banner>
             <CarouselFill interval={50000} >
               <CarouselFill.Item>
-                <img className="d-block w-100" src={productBG}/>
+                <img className="d-block w-100" src={productBG} alt="Amazonia Therrapy shampoo and Conditioner"/>
               
                 <CarouselFill.Caption>
                   <h1>Amazonia Therapy</h1>
-                  <p> Shampoo, Conditioner, Hair Products,</p>
+                  <p> Biocompatible Haircare</p>
                 </CarouselFill.Caption>
               </CarouselFill.Item>
               <CarouselFill.Item>
-              <img className="d-block w-100" src={salaoBG}/>
+              <img className="d-block w-100" src={salaoBG} alt="Amazonia Professional Products"/>
               
 
                 <CarouselFill.Caption>
@@ -78,12 +82,11 @@ const Home: React.FC = () => {
                   <p>If you are looking to make the switch to natural shampoo and conditioner</p>
                 </CarouselFill.Caption>
               </CarouselFill.Item>
-              <CarouselFill.Item>
-              <img className="d-block w-100" src={shampooBG}/>
-              
 
+              <CarouselFill.Item>
+              <img className="d-block w-100" src={shampooBG} alt="African and Amazonian Oils"/>
                 <CarouselFill.Caption>
-                  <h1>African & amazonian Oils</h1>
+                  <h1>African & Amazonian Oils</h1>
                   <p>Brazilian Smoothing protein treatment. vita oils, zero formaldehyde, order now.</p>
                 </CarouselFill.Caption>
               </CarouselFill.Item>
@@ -112,13 +115,13 @@ const Home: React.FC = () => {
             <div className="grid">
 
               {products.products.map(product => {
-                
                 return (
                   <ProductItem
                     key={`${product.title}_ID`}
                     title={product.title}
                     contentText={product.text}
                     image={productImages[countImagensProducts ++]}
+                    alt={product.alt}
                   />  
                 )
               })}

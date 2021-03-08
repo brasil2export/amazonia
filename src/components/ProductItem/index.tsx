@@ -8,9 +8,10 @@ interface productItemProps{
   title: string;
   contentText: string;
   image: string;
+  alt: string;
 }
 
-const ProductItem: React.FC<productItemProps>  = ( {contentText, image, title } ) =>{
+const ProductItem: React.FC<productItemProps>  = ( {contentText, image, title, alt } ) =>{
   let text
   if(contentText.length <= 40){
     text = contentText;
@@ -22,7 +23,7 @@ return (
     <ContainerGrid onClick={()=>{return console.log("click")}}>
       <div className="itemImage">
         {/* <Image src={image} width={500} height={500} quality={100}/> */}
-        <img src={image} alt=""/>
+        <img src={image} alt={alt}/>
       </div>              
 
       <div className="itemContent">
