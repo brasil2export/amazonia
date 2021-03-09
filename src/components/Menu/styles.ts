@@ -35,6 +35,25 @@ export const Container = styled.header`
     button{
         margin-left: 40px;
     }
+
+    .dropdown-menu{
+        background-color: black;
+      
+
+        .show{
+            color: white;
+            a{
+                color: aliceblue;
+                transition: .2s;
+                &:hover{
+                    color: ${props => props.theme.colors.primary};
+                    background-color: black;
+                }
+            }
+        }
+    }
+
+
 `
 
 export const NavegationWrapper = styled.nav`
@@ -68,7 +87,7 @@ export const ButtonCatalog = styled.button`
     border: none;
     background-color: transparent;
     border: 2px solid;
-    border-color: ${props=> props.theme.colors.primary};
+    border-color: ${props => props.theme.colors.primary};
     cursor: pointer;
     color: #ffffff;
     font-size: 18px;
@@ -77,7 +96,7 @@ export const ButtonCatalog = styled.button`
 
 
     &:hover{
-        background-color: ${props=> props.theme.colors.primary};
+        background-color: ${props => props.theme.colors.primary};
         color: #ffffff;
     }
 

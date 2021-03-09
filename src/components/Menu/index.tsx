@@ -1,5 +1,5 @@
-import React,{ useRef}from 'react'
-import Link  from 'next/link'
+import React, { useRef } from 'react'
+import Link from 'next/link'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
@@ -8,7 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button'
 // import Image from 'next/image'
 import logoAmazonia from '../../assets/logoAmazoniaMobail.png'
-import {Container } from './styles'
+import { Container } from './styles'
+import { Dropdown } from 'react-bootstrap'
 
 
 
@@ -17,60 +18,83 @@ interface menuProps {
   isSelected?: boolean;
 }
 
-const Menu: React.FC<menuProps>  = ( ) =>{
+const Menu: React.FC<menuProps> = () => {
 
-const imgRef = useRef();
-  
+  const imgRef = useRef();
 
-return (
-<Container>  
-    <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
-    <Navbar.Brand as="div">
-      <Link href="/">
-        {/* <Image ref={imgRef} src={logoAmazonia} width={150} height={80} quality={100}/> */}
-        <img src={logoAmazonia} width="150px" height="80px" alt=""/>
-      </Link>
-    </Navbar.Brand>
-    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-    <Navbar.Collapse id="responsive-navbar-nav">
-      <Nav className="mr-auto  navegationMenu">
-        <Link href="/" passHref>
-          <Nav.Link>Home</Nav.Link>
-        </Link>
-        <Link href="/about-us" passHref>
-        <Nav.Link>Amazonia Therapy</Nav.Link>
-        </Link>
 
-        <NavDropdown title="Products" id="collasible-nav-dropdown">
-          <Link  href="/products" passHref>
-            <NavDropdown.Item>professional</NavDropdown.Item>
-          </Link> 
-
-          <NavDropdown.Divider />
-
-          <Link href="/products/home-care" passHref>
-            <NavDropdown.Item>Home Care </NavDropdown.Item>
+  return (
+    <Container>
+      <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
+        <Navbar.Brand as="div">
+          <Link href="/">
+            {/* <Image ref={imgRef} src={logoAmazonia} width={150} height={80} quality={100}/> */}
+            <img src={logoAmazonia} width="150px" height="80px" alt="" />
           </Link>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="mr-auto  navegationMenu">
+            <Link href="/" passHref>
+              <Nav.Link>Home</Nav.Link>
+            </Link>
+            <Link href="/about-us" passHref>
+              <Nav.Link>Amazonia Therapy</Nav.Link>
+            </Link>
 
-          <NavDropdown.Divider />
+            <NavDropdown title="Products" id="collasible-nav-dropdown">
 
-          <Link href="/products=Finishers" passHref>
-            <NavDropdown.Item>Finishers</NavDropdown.Item>
-          </Link>
-        </NavDropdown>
+              <NavDropdown title="Thermal Smoothing Line" id="collasible-nav-dropdown" color="red">
 
-        <Link href="/contact" passHref>
-        <Nav.Link> Contact</Nav.Link>
-        </Link>
-      </Nav>
-      <Nav>
-      <Button variant="outline-primary" size="lg">Catalog</Button>{' '}
-      </Nav>
-    </Navbar.Collapse>
-  </Navbar>
-</Container>
- 
-)
+                <Link href="/products/Amazonia-Therapy-Vitaoils-Protein" passHref>
+                  <NavDropdown.Item>Amazonia Therapy Vitaoils Protein</NavDropdown.Item>
+                </Link>
+                <NavDropdown.Divider />
+                <Link href="/products" passHref>
+                  <NavDropdown.Item>Amazonia Therapy BI-BTX</NavDropdown.Item>
+                </Link>
+
+              </NavDropdown>
+
+
+
+
+              <NavDropdown title="Home Care Line" id="collasible-nav-dropdown">
+
+                <Link href="/products/home-care" passHref>
+                  <NavDropdown.Item>Amazonia Therapy Vitaoils Shampoo</NavDropdown.Item>
+                </Link>
+                <NavDropdown.Divider />
+                <Link href="/products" passHref>
+                  <NavDropdown.Item>Amazonia Therapy Vitaoils conditioner</NavDropdown.Item>
+                </Link>
+                <NavDropdown.Divider />
+                <Link href="/products" passHref>
+                  <NavDropdown.Item>Amazonia Therapy Vitaoils Serum</NavDropdown.Item>
+                </Link>
+              </NavDropdown>
+
+              <NavDropdown title="Treatment line" id="collasible-nav-dropdown">
+
+                <Link href="/products/home-care" passHref>
+                  <NavDropdown.Item>Amazonia Therapy Filler Ampoules</NavDropdown.Item>
+                </Link>
+                <NavDropdown.Divider />
+              </NavDropdown>
+            </NavDropdown>
+
+            <Link href="/contact" passHref>
+              <Nav.Link> Contact</Nav.Link>
+            </Link>
+          </Nav>
+          <Nav>
+            <Button variant="outline-primary" size="lg">Catalog</Button>{' '}
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    </Container>
+
+  )
 }
 
 export default Menu

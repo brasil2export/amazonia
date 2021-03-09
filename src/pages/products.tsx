@@ -87,46 +87,46 @@ const Products: React.FC = () => {
   let url = useRouter().asPath
 
   console.log(url.replace('/products/', '').replace('/', ''))
-    return (
-        <Container>
-            <Menu/>
+  return (
+    <Container>
+      <Menu />
 
-            <Banner>
-              <h1>Home Care</h1>
-              <img src={Amazonia_woman_bg_products} alt="Amazonia Products"/>
-            </Banner>
-            <Content>
+      <Banner>
+        <h1>Home Care</h1>
+        <img src={Amazonia_woman_bg_products} alt="Amazonia Products" />
+      </Banner>
+      <Content>
 
-            <ProductCart>
-              <WhapperImageProduct>
-                   <img src={ImageProd} alt={ProductsDB.products[2].alt}/>
-                </WhapperImageProduct>
+        <ProductCart>
+          <WhapperImageProduct>
+            <img src={ImageProd} alt={ProductsDB.products[2].alt} />
+          </WhapperImageProduct>
 
-                <WhapperContentText>
-                   <h1>{ProductsDB.products[2].title}</h1>
-                   <p>{ProductsDB.products[2].text}</p>
-                </WhapperContentText>
-            </ProductCart>
+          <WhapperContentText>
+            <h1>{ProductsDB.products[2].title}</h1>
+            <p>{ProductsDB.products[2].text}</p>
+          </WhapperContentText>
+        </ProductCart>
 
-            <ProductCart>
-              <WhapperImageProduct>
-                   <img src={ImageProd} alt=""/>
-                </WhapperImageProduct>
+        <ProductCart>
+          <WhapperImageProduct>
+            <img src={ImageProd} alt="" />
+          </WhapperImageProduct>
 
-                <WhapperContentText>
-                   <h1>SHAMPOO VITAOILS</h1>
-                   <p>With its texture and creamy formula, promotes the cleaning of the strands with a moisturizing, reconstructive and protective action on the ber of multi-processed hair, the Vitaoils Shampoo from Amazônia Therapy is the perfect choice for those who have chemically damaged hair.</p>
-                </WhapperContentText>
-            </ProductCart>
-
-                
-
-            </Content>
-
-            <Footer/>
-        </Container>
-    )
- }
+          <WhapperContentText>
+            <h1>SHAMPOO VITAOILS</h1>
+            <p>With its texture and creamy formula, promotes the cleaning of the strands with a moisturizing, reconstructive and protective action on the ber of multi-processed hair, the Vitaoils Shampoo from Amazônia Therapy is the perfect choice for those who have chemically damaged hair.</p>
+          </WhapperContentText>
+        </ProductCart>
 
 
- export default Products
+
+      </Content>
+
+      <Footer />
+    </Container>
+  )
+}
+
+
+export default Products

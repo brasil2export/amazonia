@@ -19,6 +19,8 @@ import Link  from 'next/link'
 
 const Footer: React.FC  = ( ) =>{
 
+  const currentYear = new Date().getFullYear()
+
 return (
   <Container>
     
@@ -52,8 +54,8 @@ return (
 
         <div className="email">
           <p>+55 11 3637 7711</p>
-          <a href="mailto:store@sweeteez.com.br" target="_blank" rel="noopener noreferrer">
-          info@mariaisabelcosmeticos.com.br
+          <a href="mailto:info@amazoniatherapy.com.br" target="_blank" rel="noopener noreferrer">
+          info@amazoniatherapy.com.br
           </a>
         </div>
 
@@ -89,7 +91,7 @@ return (
   </ContentFooter>
 
   <CopyRightFooter>
-    <p>&copy;  2021 Amazonia Therapy Cosméticos.</p>
+    <p>&copy;  {currentYear} Amazonia Therapy Cosméticos.</p>
   </CopyRightFooter>
    
 
