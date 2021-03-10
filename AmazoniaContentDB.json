@@ -1,9 +1,7 @@
 {
   "Amazonia_Therapy_Vitaoils": {
-
     "title": "Amazonia Therapy Vitaoils",
     "description": "Indicated as 100% Alignment, Vitaoils is enriched with coffee extract and hazelnut oil has emollient properties, nourishing, moisturizing, preventing drying and dehydration of hair. Easily absorbed by the hair cortex, it has an efficient moisturizing action, being a great treatment option for dry hair.",
-
     "productsInformation": [
       {
         "id": 1,
@@ -12,7 +10,7 @@
       },
       {
         "id": 2,
-        "title":"How To Use",
+        "title": "How To Use",
         "content": "Do the lock test before using the product. Wear suitable gloves. Wash hair with shampoo 2 to 3 times. Dry the hair in about 80%, separate the hair into 4 parts and apply the product strand by strand using a pencil, align the hair with a fine comb and let it act for 60 minutes. Rinse 80% of product with water, blow dry with hair dryer and flat iron in fine hair strand 10-15 times each. Wait 15 minutes and then thoroughly wash the hair using shampoo and conditioner Vitaoils."
       },
       {
@@ -72,12 +70,9 @@
       }
     ]
   },
-
   "Amazonia_Therapy_BI_BTX": {
-
-    "title": "AMAZONIA THERAPY BI-BTX",
+    "title": "Amazonia Therapy BI-BTX",
     "description": "BI-BTX is a hair treatment that promotes the creation of new structural bridges in the hair fiber that guarantee the strengthening of weakened areas. Rich in fibroin, Hydrolyzed Keratin and Macadamia Oil, it maintains hair nutrition at an ideal hydration level against dryness. Result: Hair deeply reconstructed, protected with softness and shine.",
-
     "productsInformation": [
       {
         "id": 1,
@@ -86,7 +81,7 @@
       },
       {
         "id": 2,
-        "title":"How To Use",
+        "title": "How To Use",
         "content": "1. Apply the BI-BTX to clean and dry hair.2. With the help of a hair dye brush, apply the product at half centimeter from the roots Strand by Strand, using a fine-toothed comb for better distribution of the product. Leave it for 40-60 minutes, per the need of the strand.3. After the pause, lead the client to the wash basin to rinse the hair removing the excess of the product to make the completion easier.4. wipe and dry hair completely with the help of a brush and a hair dryer.5. Iron with Nono-titanium hair straightener on fine Strands about 10 times in the average each Strand till sealing the strands."
       },
       {
@@ -105,34 +100,34 @@
         "title": "Ingredients Description",
         "IngredientDetails": [
           {
-              "title": "Macadamia Oil",
-              "description": "rich in fatty acid content, the real winner for skin and hair. Those fatty acids help to add shine, strengthen, and nourish the hair follicles, macadamia oil is great for calming the hair of frizz, tangles, and dullness."
+            "title": "Macadamia Oil",
+            "description": "rich in fatty acid content, the real winner for skin and hair. Those fatty acids help to add shine, strengthen, and nourish the hair follicles, macadamia oil is great for calming the hair of frizz, tangles, and dullness."
           },
           {
-              "title": "Hydrolyzed Keratin",
-              "description": "maintains the health, youth and strengthens the hair: hair is shinier, Stronger and less brittle."
+            "title": "Hydrolyzed Keratin",
+            "description": "maintains the health, youth and strengthens the hair: hair is shinier, Stronger and less brittle."
           },
           {
-              "title": "Linseed Seed Extract",
-              "description": "contain up to 6 % polysaccharides as acmucilage like arabinoxylan, galactose, glucose rhamnogalactouronane and fucose. It acts as an emollient which repair stressed & damaged hair."
+            "title": "Linseed Seed Extract",
+            "description": "contain up to 6 % polysaccharides as acmucilage like arabinoxylan, galactose, glucose rhamnogalactouronane and fucose. It acts as an emollient which repair stressed & damaged hair."
           },
           {
-              "title": "Sericin",
-              "description": "natural silk bioactive extract produced by the silkworm Bombyx mori. The unique silk protein SERICIN has strong affinity to keratin. It forms a highly substantive, protective film, imparting an immediate, long-lasting, smooth & silky feeling."
+            "title": "Sericin",
+            "description": "natural silk bioactive extract produced by the silkworm Bombyx mori. The unique silk protein SERICIN has strong affinity to keratin. It forms a highly substantive, protective film, imparting an immediate, long-lasting, smooth & silky feeling."
           },
           {
-              "title": "Fibroin",
-              "description": "excellent water-binding and absorbing protein which is non-toxic and biocompatible. It works by coating the cuticles of the hair strands. This seals in the moisture and protects the bonds so hair looks smoother and straighter. The other bonus point is that it adds shine, giving hair a more lustrous and healthy appearance."
+            "title": "Fibroin",
+            "description": "excellent water-binding and absorbing protein which is non-toxic and biocompatible. It works by coating the cuticles of the hair strands. This seals in the moisture and protects the bonds so hair looks smoother and straighter. The other bonus point is that it adds shine, giving hair a more lustrous and healthy appearance."
           },
           {
-              "title": "Bis-Cetearyl Amodimethicone",
-              "description": "100% active matter and ready-to-use conditioning agent which is biodegradable and non-toxic. It provides smoothness and anti-static properties to the hair."
+            "title": "Bis-Cetearyl Amodimethicone",
+            "description": "100% active matter and ready-to-use conditioning agent which is biodegradable and non-toxic. It provides smoothness and anti-static properties to the hair."
           },
           {
-              "title": "Fucus Vesiculosus Extract",
-              "description": "contain the well-known elements collagen and other nutrients that are responsible for hair recovery, hydration & mineralisation, owing to the abundance of zinc and vitamins A and C."
+            "title": "Fucus Vesiculosus Extract",
+            "description": "contain the well-known elements collagen and other nutrients that are responsible for hair recovery, hydration & mineralisation, owing to the abundance of zinc and vitamins A and C."
           }
-      ]
+        ]
       },
       {
         "id": 6,
@@ -142,10 +137,8 @@
     ]
   },
   "Amazonia_Therapy_Vitaoils_Shampoo": {
-
-    "title": "AMAZONIA THERAPY VITAOILS SHAMPOO",
+    "title": "Amazonia Therapy Vitaoils Shampoo",
     "description": "With its texture and creamy formula, promotes the cleaning of the strands with a moisturizing, reconstructive and protective action on the fiber of multi-processed hair, the Vitaoils Shampoo from Amazônia Therapy is the perfect choice for those who have chemically damaged hair.",
-
     "productsInformation": [
       {
         "id": 1,
@@ -154,7 +147,7 @@
       },
       {
         "id": 2,
-        "title":"How To Use",
+        "title": "How To Use",
         "content": "Apply on wet hair and wash slightly first time to remove the waste that hinder the formation of foam. Rinse and reapply the shampoo, massaging the scalp gently until it forms a rich, creamy foam. slide lather to the tips then rinse the hair. Follow with Amazonia Therapy Vitaoils conditioner for best results.WARNING: For external use only. Use only as directed. Discontinue use if irritation occurs. Avoid contact with eyes."
       },
       {
@@ -173,46 +166,46 @@
         "title": "Ingredients Description",
         "IngredientDetails": [
           {
-              "title": "Red Algae Extract",
-              "description": "have higher levels of minerals such as calcium than terrestrial vegetation and contain essential fatty acids omega-3 and omega-6. Rich in antioxidants and full of vitamins A, B, C and E, and protective pigments."
+            "title": "Red Algae Extract",
+            "description": "have higher levels of minerals such as calcium than terrestrial vegetation and contain essential fatty acids omega-3 and omega-6. Rich in antioxidants and full of vitamins A, B, C and E, and protective pigments."
           },
           {
-              "title": "Hydrolyzed Wheat Protein",
-              "description": "reduces hair's porosity and strengthens the hair layers, making hair healthier, shinier, and easier to style. This protein increases hair's ability to receive and retain moisture. It helps reduce breakage, eliminates frizz, and tangles, and makes hair appear fuller."
+            "title": "Hydrolyzed Wheat Protein",
+            "description": "reduces hair's porosity and strengthens the hair layers, making hair healthier, shinier, and easier to style. This protein increases hair's ability to receive and retain moisture. It helps reduce breakage, eliminates frizz, and tangles, and makes hair appear fuller."
           },
           {
-              "title": "Polyquaternium-10",
-              "description": "Lightweight, flexible, and frizz-fighting conditioning agent that bonds to hair between shampoos."
+            "title": "Polyquaternium-10",
+            "description": "Lightweight, flexible, and frizz-fighting conditioning agent that bonds to hair between shampoos."
           },
           {
-              "title": "Polyquaternium-7",
-              "description": "Conditioning agent that detangles, smooths, adds shine, and fights frizz."
+            "title": "Polyquaternium-7",
+            "description": "Conditioning agent that detangles, smooths, adds shine, and fights frizz."
           },
           {
-              "title": "Blend of Vitamins",
-              "description": "unique combination of Vit B5, A & E used as powerful antioxidants & hydrating actives that helps smooth, soften, and strengthen the hair layers."
+            "title": "Blend of Vitamins",
+            "description": "unique combination of Vit B5, A & E used as powerful antioxidants & hydrating actives that helps smooth, soften, and strengthen the hair layers."
           },
           {
-              "title": "Sunflower Seed Oil",
-              "description": "contains oleic acid, which stop hair breakage. It has anti-inflammatory properties which may help calm dandruff and relieve an itchy scalp."
+            "title": "Sunflower Seed Oil",
+            "description": "contains oleic acid, which stop hair breakage. It has anti-inflammatory properties which may help calm dandruff and relieve an itchy scalp."
           },
           {
-              "title": "Macadamia Oil",
-              "description": "rich in fatty acid content, the real winner for skin and hair. Those fatty acids help to add shine, strengthen, and nourish the hair follicles, macadamia oil is great for calming the hair of frizz, tangles, and dullness"
+            "title": "Macadamia Oil",
+            "description": "rich in fatty acid content, the real winner for skin and hair. Those fatty acids help to add shine, strengthen, and nourish the hair follicles, macadamia oil is great for calming the hair of frizz, tangles, and dullness"
           },
           {
-              "title": "Corn Oil",
-              "description": "helps to moisturize hair strands & preventing dryness, especially on the ends. It is a natural emollient that will moisturize the scalp and hair by keeping the hair follicles hydrated and well nourished."
+            "title": "Corn Oil",
+            "description": "helps to moisturize hair strands & preventing dryness, especially on the ends. It is a natural emollient that will moisturize the scalp and hair by keeping the hair follicles hydrated and well nourished."
           },
           {
-              "title": "Olive Oil",
-              "description": "rich in omega3 acids and other nutrients that are essential for overall health, including hair health. It has the added benefit of softening the hair and relieving dry scalp."
+            "title": "Olive Oil",
+            "description": "rich in omega3 acids and other nutrients that are essential for overall health, including hair health. It has the added benefit of softening the hair and relieving dry scalp."
           },
           {
-              "title": "Sesame Seed Oil",
-              "description": "This super-absorbable oil, high in natural antioxidants (Vitamin E) with high concentration of omega-6 fatty acids and other nutrients like zinc, copper, magnesium, calcium, and iron as well as Vitamin B-6 helps moisturize, add shine, and smooth the hair shaft."
+            "title": "Sesame Seed Oil",
+            "description": "This super-absorbable oil, high in natural antioxidants (Vitamin E) with high concentration of omega-6 fatty acids and other nutrients like zinc, copper, magnesium, calcium, and iron as well as Vitamin B-6 helps moisturize, add shine, and smooth the hair shaft."
           }
-      ]
+        ]
       },
       {
         "id": 6,
@@ -222,10 +215,8 @@
     ]
   },
   "Conditioner_Vitaoils": {
-
-    "title": "CONDITIONER VITAOILS",
+    "title": "Amazonia Therapy Vitaoils Conditioner",
     "description": "Complex of oils and vitamins with exclusive technology composed of assets that interact strongly with the hair fiber, revitalizing from its deepest layers to the most external ones. Leaves hair healthier, softer, shiny, and resistant to external aggressions.",
-
     "productsInformation": [
       {
         "id": 1,
@@ -234,7 +225,7 @@
       },
       {
         "id": 2,
-        "title":"How To Use",
+        "title": "How To Use",
         "content": "For best results, apply to freshly cleansed hair and comb through from roots to ends to disperse evenly. Rinse well. WARNING: For external use only. Use only as directed. Discontinue use if irritation occurs. Avoid contact with eyes."
       },
       {
@@ -253,66 +244,66 @@
         "title": "Ingredients Description",
         "IngredientDetails": [
           {
-              "title": "Red Algae Extract",
-              "description": "have higher levels of minerals such as calcium than terrestrial vegetation and contain essential fatty acids omega-3 and omega-6. Rich in antioxidants and full of vitamins A, B, C and E, and protective pigments."
+            "title": "Red Algae Extract",
+            "description": "have higher levels of minerals such as calcium than terrestrial vegetation and contain essential fatty acids omega-3 and omega-6. Rich in antioxidants and full of vitamins A, B, C and E, and protective pigments."
           },
           {
-              "title": "Shea Butter",
-              "description": "contains vitamin A and E with essential fatty acids which are believed to add moisture and shine to the hair. Its non-greasy quality makes it an excellent moisturizer for the hair. It softens dry brittle hair and repairs split damaged ends."
+            "title": "Shea Butter",
+            "description": "contains vitamin A and E with essential fatty acids which are believed to add moisture and shine to the hair. Its non-greasy quality makes it an excellent moisturizer for the hair. It softens dry brittle hair and repairs split damaged ends."
           },
           {
-              "title": "Hydrolyzed Wheat Protein",
-              "description": "reduces hair's porosity and strengthens the hair layers, making hair healthier, shinier, and easier to style. This protein increases hair's ability to receive and retain moisture. It helps reduce breakage, eliminates frizz, and tangles, and makes hair appear fuller."
+            "title": "Hydrolyzed Wheat Protein",
+            "description": "reduces hair's porosity and strengthens the hair layers, making hair healthier, shinier, and easier to style. This protein increases hair's ability to receive and retain moisture. It helps reduce breakage, eliminates frizz, and tangles, and makes hair appear fuller."
           },
           {
-              "title": "Polyquaternium-10",
-              "description": "Lightweight, flexible, and frizz-fighting conditioning agent that bonds to hair between shampoos."
+            "title": "Polyquaternium-10",
+            "description": "Lightweight, flexible, and frizz-fighting conditioning agent that bonds to hair between shampoos."
           },
           {
-              "title": "Polyquaternium-7",
-              "description": "Conditioning agent that detangles, smooths, adds shine, and fights frizz."
+            "title": "Polyquaternium-7",
+            "description": "Conditioning agent that detangles, smooths, adds shine, and fights frizz."
           },
           {
-              "title": "Blend of Vitamins",
-              "description": "unique combination of Vit B5, A & E used as powerful antioxidants & hydrating actives that helps smooth, soften, and strengthen the hair layers."
+            "title": "Blend of Vitamins",
+            "description": "unique combination of Vit B5, A & E used as powerful antioxidants & hydrating actives that helps smooth, soften, and strengthen the hair layers."
           },
           {
-              "title": "Sunflower Seed Oil",
-              "description": "contains oleic acid, which stop hair breakage. It has anti-inflammatory properties which may help calm dandruff and relieve an itchy scalp."
+            "title": "Sunflower Seed Oil",
+            "description": "contains oleic acid, which stop hair breakage. It has anti-inflammatory properties which may help calm dandruff and relieve an itchy scalp."
           },
           {
-              "title": "Macadamia Oil",
-              "description": "rich in fatty acid content, the real winner for skin and hair. Those fatty acids help to add shine, strengthen, and nourish the hair follicles, macadamia oil is great for calming the hair of frizz, tangles, and dullness"
+            "title": "Macadamia Oil",
+            "description": "rich in fatty acid content, the real winner for skin and hair. Those fatty acids help to add shine, strengthen, and nourish the hair follicles, macadamia oil is great for calming the hair of frizz, tangles, and dullness"
           },
           {
-              "title": "Corn Oil",
-              "description": "helps to moisturize hair strands & preventing dryness, especially on the ends. It is a natural emollient that will moisturize the scalp and hair by keeping the hair follicles hydrated and well nourished."
+            "title": "Corn Oil",
+            "description": "helps to moisturize hair strands & preventing dryness, especially on the ends. It is a natural emollient that will moisturize the scalp and hair by keeping the hair follicles hydrated and well nourished."
           },
           {
-              "title": "Olive Oil",
-              "description": "rich in omega3 acids and other nutrients that are essential for overall health, including hair health. It has the added benefit of softening the hair and relieving dry scalp."
+            "title": "Olive Oil",
+            "description": "rich in omega3 acids and other nutrients that are essential for overall health, including hair health. It has the added benefit of softening the hair and relieving dry scalp."
           },
           {
-              "title": "Sesame Seed Oil",
-              "description": "This super-absorbable oil, high in natural antioxidants (Vitamin E) with high concentration of omega-6 fatty acids and other nutrients like zinc, copper, magnesium, calcium, and iron as well as Vitamin B-6 helps moisturize, add shine, and smooth the hair shaft."
+            "title": "Sesame Seed Oil",
+            "description": "This super-absorbable oil, high in natural antioxidants (Vitamin E) with high concentration of omega-6 fatty acids and other nutrients like zinc, copper, magnesium, calcium, and iron as well as Vitamin B-6 helps moisturize, add shine, and smooth the hair shaft."
           },
           {
-              "title": "Xylitol",
-              "description": "Xylitol: moisturize and revitalize the hair. It has antimicrobial properties that help fight dandruff and flakes."
+            "title": "Xylitol",
+            "description": "Xylitol: moisturize and revitalize the hair. It has antimicrobial properties that help fight dandruff and flakes."
           },
           {
-              "title": "Jojoba Oil",
-              "description": "rich in vitamins and minerals that nourish hair, including vitamin C, B vitamins, vitamin E, copper, and zinc."
+            "title": "Jojoba Oil",
+            "description": "rich in vitamins and minerals that nourish hair, including vitamin C, B vitamins, vitamin E, copper, and zinc."
           },
           {
-              "title": "Caprylic Acid",
-              "description": "medium-chain fatty acid with potent antibacterial, antifungal, and anti-inflammatory properties."
+            "title": "Caprylic Acid",
+            "description": "medium-chain fatty acid with potent antibacterial, antifungal, and anti-inflammatory properties."
           },
           {
-              "title": "Stearamidopropyl Dimethylamine",
-              "description": "helps correct the negative charge, helps detangle, reduce flyaway and static, and helps smooth the cuticle. Unlike some silicones, it does not cause buildup."
+            "title": "Stearamidopropyl Dimethylamine",
+            "description": "helps correct the negative charge, helps detangle, reduce flyaway and static, and helps smooth the cuticle. Unlike some silicones, it does not cause buildup."
           }
-      ]
+        ]
       },
       {
         "id": 6,
@@ -322,10 +313,8 @@
     ]
   },
   "Amazonia_Therapy_Vitaoils_Serum_Perfect_Smooth": {
-
-    "title": "AMAZONIA THERAPY VITAOILS SERUM PERFECT SMOOTH",
+    "title": "Amazonia Therapy Vitaoils Serum Perfect Smooth",
     "description": "Amazonia Therapy™ Vitaoils Serum Perfect Smooth protects the hair from the heat of the dryer while promoting brightness, suppleness, softness, and discipline without leaving an oily or heavy aspect.",
-
     "productsInformation": [
       {
         "id": 1,
@@ -334,7 +323,7 @@
       },
       {
         "id": 2,
-        "title":"How To Use",
+        "title": "How To Use",
         "content": "Apply evenly over towel-dried or dry hair and comb through. No need to rinse."
       },
       {
@@ -353,30 +342,30 @@
         "title": "Ingredients Description",
         "IngredientDetails": [
           {
-              "title": "Argan Oil",
-              "description": "Mainly a source of lipids and fatty acids (omega 6 & omega 9) argan oil has a richer texture, making it particularly beneficial for moisturizing skin and hair. In hair care, argan coats the Strands, providing shine while helping to condition and resisting the damage caused by heat-styling tools."
+            "title": "Argan Oil",
+            "description": "Mainly a source of lipids and fatty acids (omega 6 & omega 9) argan oil has a richer texture, making it particularly beneficial for moisturizing skin and hair. In hair care, argan coats the Strands, providing shine while helping to condition and resisting the damage caused by heat-styling tools."
           },
           {
-              "title": "Macadamia Oil",
-              "description": "rich in fatty acid content, the real winner for skin and hair. Those fatty acids help to add shine, strengthen, and nourish the hair follicles, macadamia oil is great for calming the hair of frizz, tangles, and dullness."
+            "title": "Macadamia Oil",
+            "description": "rich in fatty acid content, the real winner for skin and hair. Those fatty acids help to add shine, strengthen, and nourish the hair follicles, macadamia oil is great for calming the hair of frizz, tangles, and dullness."
           },
           {
-              "title": "Hazelnut oil",
-              "description": "powerhouse of fatty acids, proteins, and vitamins, which can nourish hair, maintaining good hair moisturizing & glow."
+            "title": "Hazelnut oil",
+            "description": "powerhouse of fatty acids, proteins, and vitamins, which can nourish hair, maintaining good hair moisturizing & glow."
           },
           {
-              "title": "Avocado Oil",
-              "description": "extremely rich in oleic acid and monounsaturated fats, making it one of few oils that can penetrate the hair layer and moisturize hair, rather than sitting on top and coating the hair fiber. These fats also strengthen the hair layers and help prevent breakage."
+            "title": "Avocado Oil",
+            "description": "extremely rich in oleic acid and monounsaturated fats, making it one of few oils that can penetrate the hair layer and moisturize hair, rather than sitting on top and coating the hair fiber. These fats also strengthen the hair layers and help prevent breakage."
           },
           {
-              "title": "Vitamin E",
-              "description": "help support a healthy scalp and hair as it has natural antioxidant effects that could assist with maintaining hair growth. It has also conditioning properties that helps to repair hair cuticles, and mend split ends."
+            "title": "Vitamin E",
+            "description": "help support a healthy scalp and hair as it has natural antioxidant effects that could assist with maintaining hair growth. It has also conditioning properties that helps to repair hair cuticles, and mend split ends."
           },
           {
-              "title": "Phenyl Trimethicone",
-              "description": "enhances the appearance and feel of hair, by increasing hair body, suppleness, or sheen, improving the texture of hair that has been damaged physically or by chemical treatment."
+            "title": "Phenyl Trimethicone",
+            "description": "enhances the appearance and feel of hair, by increasing hair body, suppleness, or sheen, improving the texture of hair that has been damaged physically or by chemical treatment."
           }
-      ]
+        ]
       },
       {
         "id": 6,
@@ -384,5 +373,93 @@
         "content": "CYCLOPENTASILOXANE, DIMETHICONOL, DIMETHICONE, PHENYL TRIMETHICONE, PARAFFINUM LIQUIDUM, ARGANIA SPINOSA KERNEL OIL, MACADAMIA TERNIFOLIA NUT OIL, TOCOPHEROL, PERSEA GRATISSIMA (AVOCADO) OIL, CORYLUS AVELLANA (HAZEL) SEED OIL, ETHYLHEXYL METHOXYCIN-NAMATE, BENZOTRIAZOLYL DODECYL P-CRESOL, FRAGRANCE, CI 60725, CI 61565."
       }
     ]
-  }
+  },
+  "Amazonia_Therapy_Filler_Ampoules": {
+    "title": "Amazonia Therapy Filler Ampoules",
+    "description": "Amazonia Therapy™ Filler Ampoules has an innovative formula that acts instantly on highly disrupted and dry hair. Rich in Argan oil and sweet almond oil, it repairs the hair fiber, allowing for highly hydrated, shiny, and disciplined hair.",
+
+    "productsInformation": [
+      {
+        "id": 1,
+        "title": "Description",
+        "content": "Amazonia Therapy™ Filler Ampoules has an innovative formula that acts instantly on highly disrupted and dry hair. Rich in Argan oil and sweet almond oil, it repairs the hair fiber, allowing for highly hydrated, shiny, and disciplined hair."
+      },
+      {
+        "id": 2,
+        "title": "How To Use",
+        "content": "Preparation: Pour all flaconete content in a bowl, slowly add approximately 100 ml of warm water (the exact quantity of water to prepare the cream may vary depending on the desired consistency). Using a brush for mixing. Beat until you get a consistent, smooth and shiny cream. Apply on the hair, leave for half an hour and rinse thoroughly. Obs: This concentrated base may solidify in cooler days and locations. Heat the bottle with the heat of the dryer or water from the shower or sink that quickly return to the liquid state and can be used immediately."
+      },
+      {
+        "id": 3,
+        "title": "What it does",
+        "content": "..."
+      },
+      {
+        "id": 4,
+        "title": "What else to know",
+        "size": ".",
+        "content": "..."
+      },
+      {
+        "id": 5,
+        "title": "Ingredients Description",
+        "IngredientDetails": [
+          {
+            "title": "Sweet Almond Oil",
+            "description": "rich in magnesium, calcium, and zinc, helps to improve the texture of the hair strands."
+          },
+          {
+            "title": "Argan Oil",
+            "description": "Mainly a source of lipids and fatty acids (omega 6 & omega 9) argan oil has a richer texture, making it particularly beneficial for moisturizing skin and hair. In hair care, argan coats the Strands, providing shine while helping to condition and resisting the damage caused by heat-styling tools."
+          }
+          
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Ingredients",
+        "content": "Alcohol, Propylene Glycol, Cetearyl Alcohol, Paraffinum Liquidum, Cetyl Alcohol, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Cetrimonium Chloride, Argania Spinosa Kernel Oil, Quaternium-70, Glycerin, PPG-1-PEG-9 Lauryl Glycol Ether, Behentrimonium Chloride, Benzotriazolyl Dodecyl P-Cresol, Methylisothiazolinone, Methylchloroisothiazolinone, Fragrance, CI 19140, CI 73015."
+      }
+    ]
+  },
+
+
+  "products_Information_Home": [
+    {
+      "idProduct": 1,
+      "title": "Amazonia Therapy BI-BTX",
+      "text": "BI-BTX is a hair treatment that promotes the creation of new structural bridges in the hair fiber that guarantee the strengthening of weakened areas. Rich in fibroin, Hydrolyzed Keratin and Macadamia Oil, it maintains hair nutrition at an ideal hydration level against dryness. Result: Hair deeply reconstructed, protected with softness and shine.",
+      "alt": "Amazonia Therapy Botox hair treatment"
+    },
+    {
+      "idProduct": 2,
+      "title": "Amazonia Therapy Vitaoils",
+      "text": "Indicated as 100% Alignment, Vitaoils is enriched with coffee extract and hazelnut oil has emollient properties, nourishing, moisturizing, preventing drying and dehydration of hair. Easily absorbed by the hair cortex, it has an efficient moisturizing action, being a great treatment option for dry hair.",
+      "alt": "Amazonia Therapy Protein Vitaoils 1l"
+    },
+    {
+      "idProduct": 3,
+      "title": "Shampoo Vitaoils",
+      "text": "With its texture and creamy formula, promotes the cleaning of the strands with a moisturizing, reconstructive and protective action on the ber of multi-processed hair, the Vitaoils Shampoo from Amazônia Therapy is the perfect choice for those who have chemically damaged hair.",
+      "alt": "Amazonia Therapy Shampoo Vitaoils"
+    },
+    {
+      "idProduct": 4,
+      "title": "Conditioner Vitaoils",
+      "text": "Complex of oils and vitamins with exclusive technology composed of assets that interact strongly with the hair ber, revitalizing from its deepest layers to the most external ones. Leaves hair healthier, softer, shiny, and resistant to external aggressions.",
+      "alt": "Amazonia Therapy Conditioner Vitaoils"
+    },
+    {
+      "idProduct": 5,
+      "title": "Serum Perfect Smooth",
+      "text": "Vitaoils from Amazônia Therapy protects the hair from the heat of the dryer while promoting brightness, suppleness, softness and discipline without leaving an oily or heavy aspect.",
+      "alt": "Amazonia Therapy Serum Vitaoils"
+    },
+    {
+      "idProduct": 6,
+      "title": "Filler Ampoules",
+      "text": "The Filler Amazonia Therapy ampoule has innovative formula that acts instantly on highly disrupted and dry hair. Rich in Argan oil and sweet almond oil, it repairs the hair fiber, allowing for highly hydrated, shiny and disciplined hair.",
+      "alt": "Amazoina Therapy Filler Ampoule"
+    }
+  ]
 }

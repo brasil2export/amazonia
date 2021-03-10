@@ -50,7 +50,7 @@ const Menu: React.FC<menuProps> = () => {
                   <NavDropdown.Item>Amazonia Therapy Vitaoils Protein</NavDropdown.Item>
                 </Link>
                 <NavDropdown.Divider />
-                <Link href="/products" passHref>
+                <Link href="/products/Amazonia-Therapy-BI-BTX" passHref>
                   <NavDropdown.Item>Amazonia Therapy BI-BTX</NavDropdown.Item>
                 </Link>
 
@@ -61,22 +61,22 @@ const Menu: React.FC<menuProps> = () => {
 
               <NavDropdown title="Home Care Line" id="collasible-nav-dropdown">
 
-                <Link href="/products/home-care" passHref>
+                <Link href="/products/Amazonia-Therapy-Vitaoils-Shampoo" passHref>
                   <NavDropdown.Item>Amazonia Therapy Vitaoils Shampoo</NavDropdown.Item>
                 </Link>
                 <NavDropdown.Divider />
-                <Link href="/products" passHref>
-                  <NavDropdown.Item>Amazonia Therapy Vitaoils conditioner</NavDropdown.Item>
+                <Link href="/products/Conditioner-Vitaoils" passHref>
+                  <NavDropdown.Item>Amazonia Therapy Vitaoils Conditioner</NavDropdown.Item>
                 </Link>
                 <NavDropdown.Divider />
-                <Link href="/products" passHref>
+                <Link href="/products/Amazonia-Therapy-Vitaoils-Serum-Perfect-Smooth" passHref>
                   <NavDropdown.Item>Amazonia Therapy Vitaoils Serum</NavDropdown.Item>
                 </Link>
               </NavDropdown>
 
               <NavDropdown title="Treatment line" id="collasible-nav-dropdown">
 
-                <Link href="/products/home-care" passHref>
+                <Link href="/products/Amazonia-Therapy-Filler-Ampoules" passHref>
                   <NavDropdown.Item>Amazonia Therapy Filler Ampoules</NavDropdown.Item>
                 </Link>
                 <NavDropdown.Divider />

@@ -28,7 +28,7 @@ import amazoniaTherapyShampooHomeCare from '../assets/products/amazoniaTherapySh
 
 
 
-import products from '../../content.json'
+import products from '../../AmazoniaContentDB.json'
 
 import { Banner, Container, WrapperContent } from '../styles/pages/Home'
 import CarouselFill from 'react-bootstrap/Carousel'
@@ -114,7 +114,7 @@ const Home: React.FC = () => {
           <h3>Products</h3>
           <div className="grid">
 
-            {products.products.map(product => {
+            {products.products_Information_Home.map(product => {
               return (
                 <ProductItem
                   key={`${product.title}_ID`}
