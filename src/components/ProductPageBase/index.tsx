@@ -4,63 +4,9 @@ import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 
 import {AmazoniaBase} from '../../Interface/amazoniaInterface'
-const Container = styled.div`
-.acordionContainer{
 
-  max-width: 1400px;
-  margin: 0 auto;
-  padding:  0px 60px 60px;
+import {Container, Banner, Content} from './style'
 
-  button {
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    color: black;
-    outline: none;
-    border: none;
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
-`
-const Banner = styled.div`
-width: 100%;
-height: calc(80vh - 100px);
-position: relative;
-display: flex;
-align-items: center;
-justify-content: center;
-
-h1{
-  z-index: 2;
-  color: white;
-  font-size: 64px;
-}
-
-img{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: brightness(0.3);
-}
-
-`
-
-const Content = styled.main`
-min-height: 80vh;
-width: 100%;
-background-color: #fefefe;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 4%;
-max-width: 1400px;
-margin: 0 auto;`
-
-JSON
 interface productPageBaseProps{
 imagemBanner: string;
 imagemProduct: string;

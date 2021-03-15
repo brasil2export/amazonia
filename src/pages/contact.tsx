@@ -13,15 +13,6 @@ import { Container } from '../styles/pages/contact'
 
 
 const Contact: React.FC = () => {
-  const Map = dynamic(
-    () => import('../components/Mapa'),
-    { 
-      loading: () => <p>A map is loading</p>,
-      ssr: false
-    }
-  )
-
-
   return (
     <Container >
       <Head>
@@ -93,7 +84,7 @@ const Contact: React.FC = () => {
         
         <div className="form">
           <form action="" method="post">
-            <legend>Contact us</legend>
+            <legend>Send A Message</legend>
             <fieldset>
               
               <input required type="text" name="name"/>

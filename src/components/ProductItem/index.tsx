@@ -2,16 +2,19 @@
 import { ContainerGrid } from './styles'
 // import Image from 'next/image'
 import MaisIcon from '../../assets/mais.svg'
-
+import Link from 'next/link'
 interface productItemProps{
 
   title: string;
   contentText: string;
   image: string;
   alt: string;
+  link: string;
 }
 
-const ProductItem: React.FC<productItemProps>  = ( {contentText, image, title, alt } ) =>{
+const ProductItem: React.FC<productItemProps>  = ( {contentText, image, title, alt, link } ) =>{
+
+
   let text
   if(contentText.length <= 40){
     text = contentText;
@@ -26,7 +29,10 @@ return (
         <img src={image} alt={alt}/>
       </div>              
 
-      <div className="itemContent">
+      <Link href={link}>
+        <div className="itemContent">
+
+        
         <div className="text">
         <h2>{title}</h2>
         <p> {text}</p>
@@ -34,12 +40,12 @@ return (
        
 
         <div className="itemButton">
-        <button>
-          <MaisIcon/>
-        </button>
-      </div>
-      </div>
-
+          <button>
+            <MaisIcon/>
+          </button>
+        </div>
+        </div>
+      </Link>
       
     </ContainerGrid>
 

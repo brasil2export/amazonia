@@ -117,6 +117,7 @@ const Home: React.FC = () => {
             {products.products_Information_Home.map(product => {
               return (
                 <ProductItem
+                  link={product.link}
                   key={`${product.title}_ID`}
                   title={product.title}
                   contentText={product.text}
