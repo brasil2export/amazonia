@@ -3,21 +3,19 @@ import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 
-import {AmazoniaBase} from '../../Interface/amazoniaInterface'
+import {AmazoniaBaseProps} from '../../Interface/amazoniaInterface'
 
 import {Container, Banner, Content} from './style'
 
 interface productPageBaseProps{
 imagemBanner: string;
 imagemProduct: string;
-dataProducts: AmazoniaBase;
+dataProducts: AmazoniaBaseProps;
 }
 
 
 const ProductPageBase: React.FC<productPageBaseProps> = ({imagemBanner, imagemProduct, dataProducts}) => {
 
-  
-  const product = dataProducts
 
 
   return (
@@ -25,24 +23,24 @@ const ProductPageBase: React.FC<productPageBaseProps> = ({imagemBanner, imagemPr
 
 
       <Banner>
-        <h1>{product.title}</h1>
+        <h1>{dataProducts.title}</h1>
         <img src={imagemBanner} alt="Amazonia Products" />
       </Banner>
       <Content>
 
         <div className="imagemWrapper">
-          <img src={imagemProduct} alt={product.title} />
+          <img src={imagemProduct} alt={dataProducts.title} />
         </div>
         <div className="contentWrapper">
-          <h1>{product.title}</h1>
-          <p>{product.description}</p>
+          <h1>{dataProducts.title}</h1>
+          <p>{dataProducts.description}</p>
 
         </div>
 
       </Content>
       <div className="acordionContainer">
         <Accordion defaultActiveKey="0">
-          {product.productsInformation.map(item => {
+          {dataProducts.productsInformation.map(item => {
             return (
               <Card key={`ID_${item.id}`}>
                 <Card.Header>
