@@ -74,9 +74,6 @@ return (
         <div className="socialMedia">
 
           <a href="">
-          <FaTwitter size={32}/>
-          </a>
-          <a href="">
           <FaFacebook size={32}/>
           </a>
           <a href="">

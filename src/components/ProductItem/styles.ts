@@ -5,7 +5,7 @@ export const ContainerGrid = styled.div`
 
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: white;
     min-height: 380px;
     height: 100%;
     width: 100%;
@@ -13,11 +13,13 @@ export const ContainerGrid = styled.div`
     box-shadow: 4px 1px 9px black;
 
     &:hover{
+      cursor: pointer;
 
 
       .itemImage{
         img{
-          filter: brightness(0.5);
+          transform: scale(1.1);
+          
         }
       }
       .itemContent{
@@ -31,12 +33,13 @@ export const ContainerGrid = styled.div`
       width: 100%;
       height: 100%;
       max-height: 300px;
+      overflow: hidden;
 
       img{
         width: 100%;
         height: 100%;
         max-height: 300px;
-        object-fit: cover;
+        object-fit: contain;
         border-radius: 8px 8px 0px 0px;
         transition: 400ms;
 
@@ -47,10 +50,11 @@ export const ContainerGrid = styled.div`
       cursor: pointer;
       color: white;
       padding: 16px;
-
+      background-color: black;
       position: relative;
       display: flex;
       justify-content: space-between;
+      border-radius: 0px 0px 8px 8px;
      
      .text{
       width: 80%;
@@ -58,7 +62,7 @@ export const ContainerGrid = styled.div`
 
       h2{
         color: ${props=> props.theme.colors.primary};
-        font-size: 24px;
+        font-size: 22px;
         font-weight: bold;
       }
 

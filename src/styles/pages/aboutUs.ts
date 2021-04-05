@@ -68,7 +68,7 @@ export const Conteiner = styled.main`
         display: flex;
         flex-wrap: wrap;
         max-width: 1400px;
-        margin: 0 auto;
+        margin: 50px auto;
         justify-content: center;
         .item{
             position: relative;

@@ -16,6 +16,10 @@ export default createGlobalStyle`
     font: 400 16px Roboto, sans-serif;
   }
 
+  h1,h2,h3,h4,h5,h6 {
+    font-family: 'Nunito', sans-serif;
+  }
+
   a{
     color:currentColor;
     text-decoration: none;
@@ -26,9 +30,4 @@ export default createGlobalStyle`
     }
   }
 
-  h1,h2,h3,h4,h5,h6{
-    font-family: Archivo;
-    font-weight: 400;
-
-  }
 `
