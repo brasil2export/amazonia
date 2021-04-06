@@ -12,8 +12,11 @@ import Footer from '../components/Footer'
 import streetBG from '../assets/streetBG.jpg'
 import { Container } from '../styles/pages/contact'
 
+import axios from 'axios'
 
 const Contact: React.FC = () => {
+
+  
 
 
   const [campos, setCampos] = useState({
@@ -27,10 +30,19 @@ const Contact: React.FC = () => {
     setCampos(campos);
   }
 
+  const data = {
+    name: campos.name,
+    message: campos.message,
+    email: campos.email
+  }
 
-  function handleFormSubmit(event) {
+
+ async function handleFormSubmit(event) {
     event.preventDefault();
     console.log(campos);
+    await axios.post('http://localhost:3030/send', { data }).then(res => {
+      console.log("axois",res.data)
+    })
   }
 
 
