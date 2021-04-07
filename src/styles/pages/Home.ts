@@ -216,7 +216,7 @@ export const Banner = styled.div`
       line-height: 110px;
       text-shadow: 5px 0 5px black;
       text-align: initial;
-      font-family: 'Nunito', sans-serif;
+
       text-transform: uppercase;
 
       @media(max-width: 1000px){

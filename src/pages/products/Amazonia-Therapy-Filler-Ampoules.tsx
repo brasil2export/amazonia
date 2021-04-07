@@ -18,7 +18,7 @@ const Amazonia_Therapy_Filler_Ampoules: React.FC = () => {
         imagemBanner={Amazonia_woman_bg_products}
         imagemProduct={ImageProd}
         dataProducts={AmazoniaContent.Amazonia_Therapy_Filler_Ampoules}
-        color="#008394"
+        color="#262935"
       />
       <Footer />
     </div>

@@ -8,7 +8,6 @@ import Document, {
   NextScript
 } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
-
 import flaticonAmazonia from '../assets/favicon.ico'
 
 export default class MyDocument extends Document {
@@ -45,31 +44,12 @@ export default class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta name="description" content="Luxury Hair Protein Products"/>
-          <meta name="keywords" content="
-          professional cosmetics,
-          color-treated hair,
-          shampoo & conditioner,
-          natural ingredients for hair,
-          straightener,
-          blonde hair,
-          blonde,
-          Organic oil, 
-          ZERO Formol,
-          amazonian therapy, 
-          protein treatment, 
-          Brazilian blowout, 
-          Brazilian keratin, 
-          coffee extracts, 
-          coconut extracts, 
-          100% natural, 
-          Home kit, 
-          private label,     
           
-          "/>
           <link
             href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
             rel="stylesheet"
           />
+           <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet" />
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
           <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet"/>
           <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet"/>

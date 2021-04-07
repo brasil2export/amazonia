@@ -13,6 +13,7 @@ import productBG from '../assets/IMAGEM_HOME_001.jpg'
 import salaoBG from '../assets/IMAGEM_HOME_004.jpg'
 
 import shampooBG from '../assets/IMAGEM_HOME_003.jpg'
+import AmazoniaProductsHomePage from '../assets/IMAGEM_HOME_005.jpg'
 
 
 //products Img
@@ -65,12 +66,22 @@ const Home: React.FC = () => {
 
         <Banner>
           <CarouselFill interval={50000} >
+
             <CarouselFill.Item>
-              <img className="d-block w-100" src={productBG} alt="Amazonia Therrapy shampoo and Conditioner" />
+              <img className="d-block w-100" src={AmazoniaProductsHomePage} alt="Amazonia Therrapy shampoo and Conditioner" />
 
               <CarouselFill.Caption>
                 <h1>Amazonia Therapy</h1>
                 <p> Biocompatible Haircare</p>
+              </CarouselFill.Caption>
+            </CarouselFill.Item>
+
+            <CarouselFill.Item>
+              <img className="d-block w-100" src={productBG} alt="Amazonia Therrapy shampoo and Conditioner" />
+
+              <CarouselFill.Caption>
+                <h1>Vitaoils</h1>
+                <p>Perfect smoothing for all hair types</p>
               </CarouselFill.Caption>
             </CarouselFill.Item>
             <CarouselFill.Item>
@@ -90,6 +101,8 @@ const Home: React.FC = () => {
                 <p>Brazilian Smoothing protein treatment. vita oils, zero formaldehyde, order now.</p>
               </CarouselFill.Caption>
             </CarouselFill.Item>
+
+
           </CarouselFill>
         </Banner>
 

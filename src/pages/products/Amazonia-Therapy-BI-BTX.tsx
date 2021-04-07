@@ -20,7 +20,7 @@ const Amazonia_Therapy_BI_BTX: React.FC = () => {
         imagemBanner={Amazonia_woman_bg_products}
         imagemProduct={ImageProd}
         dataProducts={AmazoniaContent.Amazonia_Therapy_BI_BTX}
-        color="#2c387e"
+        color="#2A2938"
       />
       <Footer />
     </div>

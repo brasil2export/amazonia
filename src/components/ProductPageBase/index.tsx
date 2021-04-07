@@ -36,13 +36,13 @@ const ProductPageBase: React.FC<productPageBaseProps> = ({imagemBanner, imagemPr
 
         <div className="contentWrapper">
           <div className="dicription">
-            <h2>{`${dataProducts.description.substring(0, 160)}...`}</h2>
+            <h2  style={{color: color}}>{`${dataProducts.description.substring(0, 160)}...`}</h2>
           </div>
          
 
           <div className="acordionContainer">
 
-            <h2  style={{color: color}}>Products Information</h2>
+            <h2 >Products Information</h2>
         <Accordion defaultActiveKey="0">
           {dataProducts.productsInformation.map(item => {
             return (
