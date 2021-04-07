@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { useState } from 'react'
 import Head from 'next/head'
 
@@ -12,13 +12,12 @@ import Footer from '../components/Footer'
 import streetBG from '../assets/streetBG.jpg'
 import { Container } from '../styles/pages/contact'
 
-import axios from 'axios'
+
 
 const Contact: React.FC = () => {
-
-  
-
-
+  const [colorButton, setColorButton] = useState('#1B1738') 
+  const [isDisabled, setIsDisabled ] = useState(false)
+  const [verification, setVerification] = useState('');
   const [campos, setCampos] = useState({
     name: '',
     email: '',
@@ -28,48 +27,52 @@ const Contact: React.FC = () => {
   function handleInputChange(event) {
     campos[event.target.name] = event.target.value;
     setCampos(campos);
+    
   }
 
-  const data = {
-    name: campos.name,
-    message: campos.message,
-    email: campos.email
-  }
+  const api = async () => {
 
-  const api =  async ()=>{
-
-    const url= window.location.hostname.includes('localhost')
-  ? 'http://localhost:3030/send'
-  : 'https://backend-amazonia.herokuapp.com/send';
-
+    const url = window.location.hostname.includes('localhost')
+      ? 'http://localhost:3030/send'
+      : 'https://backend-amazonia.herokuapp.com/send';
 
     const dados = {
-       name: campos.name,
-       email: campos.email,
-       message: campos.message
+      name: campos.name,
+      email: campos.email,
+      message: campos.message
     };
     const options = {
-        method: 'POST',
-        body: JSON.stringify(dados),
-        headers: {
-            'Content-Type': 'application/json'
-        }
+      method: 'POST',
+      body: JSON.stringify(dados),
+      headers: {
+        'Content-Type': 'application/json'
+      }
     }
-    
-    fetch(url, options)
-        .then(res => res.json())
-        .then(res => console.log(res));
+    await fetch(url, options)
+      .then(res => res.json())
+      .then(res => {
+        if (res.accepted) {
+ 
+          setVerification("message sent successfully")
+        } else {
+          setVerification("error sending message")
+        }
+
+      })
 
   }
 
 
   function handleFormSubmit(event) {
-    event.preventDefault();
-    //  axios.post('http://localhost:3030/send', {name: campos.name, email: campos.email, menssage: campos.message} ).then(res => {
-    //   console.log("axois",res)
-    // })
+    event.preventDefault()
+    isDisabled === true ?  setIsDisabled(false): setIsDisabled(true)
+    colorButton === 'gray' ? setColorButton('#1B1738'): setColorButton('gray')
     api()
+    
   }
+
+ 
+
 
 
   return (
@@ -105,7 +108,7 @@ const Contact: React.FC = () => {
 
               <div className="contact">
                 <div className="title">
-                  <h5>SEJA UM DISTRIBUIDOR</h5>
+                  <h5>BE A DISTRIBUTOR</h5>
                 </div>
 
                 <div className="containterPhoneAndEmail">
@@ -152,10 +155,11 @@ const Contact: React.FC = () => {
               </fieldset>
               <fieldset>
                 <label htmlFor="message">message</label>
-                <textarea name="message" onChange={handleInputChange}></textarea>
+                <textarea required name="message" onChange={handleInputChange}></textarea>
               </fieldset>
 
-              <button type="submit">Submit</button>
+              <button disabled={isDisabled} style={{backgroundColor: colorButton }} type="submit">Submit</button>
+              <span>{verification}</span>
             </form>
           </div>
 

@@ -21,10 +21,17 @@ export const Container = styled.div`
     .card {
         border: 0;
     }
+    .card-body{
+        padding: 2.25rem;
+    }
 
     .card-header{
         padding-bottom: 0;
         background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border:none;
     }
 
 
@@ -136,7 +143,7 @@ margin: 0 auto;
     img{
         animation: ${rotate} 3s ease-in-out infinite;
         position: sticky;
-        top: 20px;
+        top: 110px;
         max-width: 600px;
         object-fit: contain;
         @media (max-width: 1000px){

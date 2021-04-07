@@ -40,11 +40,7 @@ return (
 
           <Link href="/about-us">
             Amazonia Therapy
-          </Link> 
-
-          <Link href="/products">
-            Products
-          </Link>            
+          </Link>        
       
           <Link href="/contact">
             Contact

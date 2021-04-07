@@ -236,7 +236,6 @@ export const Container = styled.div`
   button{
     padding: 12px 16px;
     border: none;
-    background-color: ${props=> props.theme.colors.secondary};
     color: white;
     transition: .4s;
 
@@ -251,6 +250,10 @@ export const Container = styled.div`
       @media(max-width: 700px){
         width: 100%;
      }
+    }
+
+    span{
+      margin-left: 24px;
     }
   }
  }
