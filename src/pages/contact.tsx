@@ -36,13 +36,39 @@ const Contact: React.FC = () => {
     email: campos.email
   }
 
+  const api =  async ()=>{
 
- async function handleFormSubmit(event) {
+    const url= window.location.hostname.includes('localhost')
+  ? 'http://localhost:3030/send'
+  : 'https://backend-amazonia.herokuapp.com/send';
+
+
+    const dados = {
+       name: campos.name,
+       email: campos.email,
+       message: campos.message
+    };
+    const options = {
+        method: 'POST',
+        body: JSON.stringify(dados),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    }
+    
+    fetch(url, options)
+        .then(res => res.json())
+        .then(res => console.log(res));
+
+  }
+
+
+  function handleFormSubmit(event) {
     event.preventDefault();
-    console.log(campos);
-    await axios.post('http://localhost:3030/send', { data }).then(res => {
-      console.log("axois",res.data)
-    })
+    //  axios.post('http://localhost:3030/send', {name: campos.name, email: campos.email, menssage: campos.message} ).then(res => {
+    //   console.log("axois",res)
+    // })
+    api()
   }
 
 
