@@ -43,17 +43,14 @@ export default class MyDocument extends Document {
       <Html lang="pt">
         <Head>
           <meta charSet="utf-8" />
-          <meta name="description" content="Luxury Hair Protein Products"/>
-          
+          <meta name="description" content="Luxury Hair Protein Products" />
+
           <link
             href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
             rel="stylesheet"
           />
-           <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet" />
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-          <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet"/>
-          <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet"/>
-
+          <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet" />
           <link rel="icon" href={flaticonAmazonia} />
         </Head>
         <body>

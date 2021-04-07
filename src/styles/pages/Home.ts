@@ -119,7 +119,8 @@ export const WrapperContent = styled.main`
     padding-bottom: 16px; 
   }
 
-  h3{
+  h2{
+    margin-top: 50px;
     margin-bottom: 50px;
     font-size: 64px;
     line-height: 72px;
@@ -210,7 +211,7 @@ export const Banner = styled.div`
       z-index: 1;
     }
 
-    h1{
+    h1,h2{
         font-size: 88px;
        max-width: 750px;
       line-height: 110px;

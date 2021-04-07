@@ -80,7 +80,7 @@ const Home: React.FC = () => {
               <img className="d-block w-100" src={productBG} alt="Amazonia Therrapy shampoo and Conditioner" />
 
               <CarouselFill.Caption>
-                <h1>Vitaoils</h1>
+                <h2>Vitaoils</h2>
                 <p>Perfect smoothing for all hair types</p>
               </CarouselFill.Caption>
             </CarouselFill.Item>
@@ -89,7 +89,7 @@ const Home: React.FC = () => {
 
 
               <CarouselFill.Caption>
-                <h1>Professional Products</h1>
+                <h2>Professional Products</h2>
                 <p>If you are looking to make the switch to natural shampoo and conditioner</p>
               </CarouselFill.Caption>
             </CarouselFill.Item>
@@ -97,7 +97,7 @@ const Home: React.FC = () => {
             <CarouselFill.Item>
               <img className="d-block w-100" src={shampooBG} alt="African and Amazonian Oils" />
               <CarouselFill.Caption>
-                <h1>African & Amazonian Oils</h1>
+                <h2>African & Amazonian Oils</h2>
                 <p>Brazilian Smoothing protein treatment. vita oils, zero formaldehyde, order now.</p>
               </CarouselFill.Caption>
             </CarouselFill.Item>
@@ -124,7 +124,7 @@ const Home: React.FC = () => {
 
         <section className="section3" >
 
-          <h3>Products</h3>
+          <h2>Products</h2>
           <div className="grid">
 
             {products.products_Information_Home.map(product => {

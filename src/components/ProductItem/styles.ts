@@ -11,6 +11,7 @@ export const ContainerGrid = styled.div`
     width: 100%;
     border-radius: 8px;
     box-shadow: 4px 1px 9px black;
+    justify-content: space-between;
 
     &:hover{
       cursor: pointer;
@@ -60,9 +61,9 @@ export const ContainerGrid = styled.div`
       width: 80%;
      }
 
-      h2{
+      h4{
         color: ${props=> props.theme.colors.primary};
-        font-size: 22px;
+        font-size: 20px;
         font-weight: bold;
       }
 

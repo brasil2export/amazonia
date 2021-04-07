@@ -34,7 +34,7 @@ const ProductItem: React.FC<productItemProps> = ({ contentText, image, title, al
 
 
           <div className="text">
-            <h2>{title}</h2>
+            <h4>{title}</h4>
             <p> {text}</p>
           </div>
 
