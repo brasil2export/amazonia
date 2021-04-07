@@ -35,9 +35,9 @@ export const Container = styled.div`
     }
 
 
-    h2{
+    h3{
         text-transform: uppercase;
-        font-size: 40px;
+        font-size: 32px;
         padding: 20px;
         text-align: center;
 
@@ -55,7 +55,7 @@ export const Container = styled.div`
         display: flex;
         justify-content: space-between;
 
-        @media (max-width: 900px){
+        @media (max-width: 1000px){
             width: 100%;
         }
     }
@@ -176,7 +176,14 @@ margin: 0 auto;
             @media (max-width: 1000px){
                 line-height: 52px;
                 max-width: 700px;
-                font-size: 35px;
+                font-size: 30px;
+                text-align: center;
+            }
+
+            @media (max-width: 700px){
+                line-height: 52px;
+                max-width: 700px;
+                font-size: 25px;
                 text-align: center;
             }
 

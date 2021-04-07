@@ -124,13 +124,13 @@ const Contact: React.FC = () => {
               </div>
 
               <div className="socialMedia">
-                <a href="">
+                {/* <a href="">
                   <FaInstagram size={32} />
-                </a>
-                <a href="">
+                </a> */}
+                <a target="_blank" href="https://www.facebook.com/Amazonia.therapy">
                   <FaFacebook size={32} />
                 </a>
-                <a href="">
+                <a target="_blank"  href="https://www.youtube.com/channel/UCAWyuASlgOtRvPjBvMz3cbg">
                   <FaYoutube size={32} />
                 </a>
               </div>

@@ -42,7 +42,7 @@ const ProductPageBase: React.FC<productPageBaseProps> = ({imagemBanner, imagemPr
 
           <div className="acordionContainer">
 
-            <h2 >Products Information</h2>
+            <h3 >Products Information</h3>
         <Accordion defaultActiveKey="0">
           {dataProducts.productsInformation.map(item => {
             return (
