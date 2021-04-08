@@ -10,7 +10,7 @@ import { Conteiner, Banner } from '../styles/pages/aboutUs'
 import bgAboutUs from '../assets/IMAGEM_HOME_002.jpg'
 import photoGrid1 from '../assets/IMAGEM_HOME_005.jpg'
 import photoGrid2 from '../assets/IMAGEM_HOME_003.jpg'
-import photoGrid3 from '../assets/IMAGEM_HOME_004.jpg'
+import photoGrid3 from '../assets/IMAGEM_HOME_001.jpg'
 import Footer from '../components/Footer'
 
 
@@ -60,18 +60,18 @@ const AboutUs: React.FC = () => {
 
           <div className="item">
       
-              <img src={photoGrid1} />
+              <img src={photoGrid1} alt="Products Amazonia therapy" />
          
 
           </div>
           <div className="item">
             
-            <img src={photoGrid2} />
+            <img src={photoGrid2}  alt="AFRICAN AND AMAZONIAN OILS"  />
 
 
           </div>
           <div className="item">
-            <img src={photoGrid3} />
+            <img src={photoGrid3}  alt="Amazonia Therapy vitaoils"/>
 
           </div>
         </div>
