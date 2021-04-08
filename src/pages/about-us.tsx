@@ -3,7 +3,7 @@ import Head from 'next/head'
 // import Image from 'next/image'
 
 import Menu from '../components/Menu'
-
+import Link from 'next/link'
 import { Conteiner, Banner } from '../styles/pages/aboutUs'
 
 
@@ -59,11 +59,13 @@ const AboutUs: React.FC = () => {
         <div className="grid">
 
           <div className="item">
-            <img src={photoGrid1} />
+      
+              <img src={photoGrid1} />
+         
 
           </div>
           <div className="item">
-
+            
             <img src={photoGrid2} />
 
 

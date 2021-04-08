@@ -7,7 +7,7 @@
     secondary: '#1B1738',
     secondaryDark: '#100B37',
     black: '#ffffff',
-    productsSectionColor: '##595757',
+    productsSectionColor: '#121212',
     fixedWhiteText: '#ffffff',
     productColorBase: '#2A2938',
     menuAndFotterTextColor: '#FFFFFFaa',

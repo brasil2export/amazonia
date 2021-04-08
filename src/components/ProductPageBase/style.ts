@@ -75,16 +75,20 @@ export const Container = styled.div`
 
 export const Banner = styled.div`
 width: 100%;
-height: calc(80vh - 100px);
+height: 650px;
 position: relative;
 display: flex;
 align-items: center;
 justify-content: center;
 
+    @media (max-width: 900px){
+        height: calc(100vh - 100px);
+    }
+
     h1{
     z-index: 2;
     color: white;
-    font-size: 64px;
+    font-size: 48px;
 
     @media (max-width: 900px){
         font-size: 42px;
@@ -100,7 +104,9 @@ justify-content: center;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: brightness(0.3);
+    filter: brightness(0.5);
+
+    
     }
 
 `

@@ -11,11 +11,11 @@ interface productPageBaseProps{
 imagemBanner: string;
 imagemProduct: string;
 dataProducts: AmazoniaBaseProps;
-color?: string;
+
 }
 
 
-const ProductPageBase: React.FC<productPageBaseProps> = ({imagemBanner, imagemProduct, dataProducts, color}) => {
+const ProductPageBase: React.FC<productPageBaseProps> = ({imagemBanner, imagemProduct, dataProducts}) => {
 
     
 
@@ -30,7 +30,7 @@ const ProductPageBase: React.FC<productPageBaseProps> = ({imagemBanner, imagemPr
 
       <Banner >
         <h1>{dataProducts.title}</h1>
-        <img src={imagemBanner} alt="Amazonia Products" />
+        <img src={imagemBanner} alt={`Banner ${dataProducts.title} products`}/>
       </Banner>
       <Content>
 

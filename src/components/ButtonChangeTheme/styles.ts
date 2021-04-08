@@ -33,7 +33,7 @@ transform: translateY(8%);
     padding: 2px;
     width: 50px;
     height: 22px;
-    background-color: #000000;
+    background-color: #ffffff;
     border-radius: 60px;
     }
 
