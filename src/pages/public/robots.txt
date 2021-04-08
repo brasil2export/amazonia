@@ -1,0 +1,8 @@
+Sitemap: https://amazoniatherapy.com.br/api/sitemap
+
+
+# robots.txt gerado em 
+# marketingdebusca.com.br/robots-txt/
+User-agent: *
+Allow: /*
+Disallow: /api/*
