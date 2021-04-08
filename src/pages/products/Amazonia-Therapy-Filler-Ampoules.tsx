@@ -12,6 +12,7 @@ const Amazonia_Therapy_Filler_Ampoules: React.FC = () => {
     <div>
       <Head>
         <title>{AmazoniaContent.Amazonia_Therapy_Filler_Ampoules.title}</title>
+        <meta name="description" content="Amazonia Therapy™ Filler Ampoules has an innovative formula that acts instantly on highly disrupted and dry hair." />
       </Head>
       <Menu />
       <ProductPageBase 

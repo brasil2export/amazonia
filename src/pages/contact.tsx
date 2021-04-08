@@ -79,6 +79,7 @@ const Contact: React.FC = () => {
     <Container >
       <Head>
         <title>Contact</title>
+        <meta name="description" content="Get in touch with the people of Amazonia Therapy by email info@amazoniatherapy.com.br" />
       </Head>
       <Menu />
       <div className="main">

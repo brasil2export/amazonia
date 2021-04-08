@@ -13,6 +13,8 @@ const Amazonia_Therapy_Vitaoils_Serum_Perfect_Smooth: React.FC = () => {
     <div>
       <Head>
         <title>{AmazoniaContent.Amazonia_Therapy_Vitaoils_Serum_Perfect_Smooth.title}</title>
+        <meta name="description" content="Amazonia Therapy™ Vitaoils Serum Perfect Smooth protects the hair from the heat of the dryer while promoting" />
+
       </Head>
       <Menu />
       <ProductPageBase

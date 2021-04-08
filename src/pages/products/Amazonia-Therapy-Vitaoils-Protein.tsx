@@ -13,6 +13,7 @@ const AmazoniaTherapyVitaoilsProtein: React.FC = () => {
     <div>
       <Head>
         <title>{AmazoniaContent.Amazonia_Therapy_Vitaoils.title}</title>
+        <meta name="description" content="Amazonia Therapy Protein indicated as 100% Alignment, Vitaoils is enriched with coffee extract and hazelnut oil." />
       </Head>
       <Menu />
       <ProductPageBase

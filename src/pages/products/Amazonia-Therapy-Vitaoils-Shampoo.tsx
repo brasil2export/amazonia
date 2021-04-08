@@ -13,6 +13,8 @@ const Amazonia_Therapy_Vitaoils_Shampoo: React.FC = () => {
     <div>
       <Head>
         <title>{AmazoniaContent.Amazonia_Therapy_Vitaoils_Shampoo.title}</title>
+        <meta name="description" content="With its texture and creamy formula, promotes the cleaning of the strands with a moisturizing, reconstructive and protective" />
+
       </Head>
       <Menu />
       <ProductPageBase

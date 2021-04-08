@@ -57,6 +57,7 @@ const Home: React.FC = () => {
     <Container>
       <Head>
         <title>Amazonia Therapy</title>
+        <meta name="description" content="AMAZONIA THERAPY has products to care for biocompatible hair and natural products for hair treatments" />
       </Head>
 
 

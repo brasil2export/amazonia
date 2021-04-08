@@ -13,6 +13,7 @@ const Conditioner_Vitaoils: React.FC = () => {
     <div>
       <Head>
         <title>{AmazoniaContent.Conditioner_Vitaoils.title}</title>
+        <meta name="description" content="Complex of oils and vitamins with exclusive technology composed of assets that interact strongly with the hair fiber." />
       </Head>
       <Menu />
       <ProductPageBase 

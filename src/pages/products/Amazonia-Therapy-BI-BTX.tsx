@@ -12,6 +12,7 @@ const Amazonia_Therapy_BI_BTX: React.FC = () => {
     <div>
       <Head>
         <title>{AmazoniaContent.Amazonia_Therapy_BI_BTX.title}</title>
+        <meta name="description" content="BI-BTX is a hair treatment that promotes the creation of new structural bridges in the hair fiber that guarantee the strengthening of weakened areas." />
       </Head>
 
       <Menu />

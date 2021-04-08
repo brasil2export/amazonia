@@ -22,7 +22,8 @@ const AboutUs: React.FC = () => {
   return (
     <div>
       <Head>
-        <title>About Us</title>
+        <title>About Us - Amazonia Therapy</title>
+        <meta name="description" content="About us at Amazonia Therapy Cosmetics is a world leader in Professional Cosmetics, focusing on Straightening and Softening products" />
       </Head>
 
       <Menu />
