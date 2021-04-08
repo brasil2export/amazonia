@@ -19,7 +19,6 @@ const Amazonia_Therapy_Vitaoils_Shampoo: React.FC = () => {
         imagemBanner={Amazonia_woman_bg_products}
         imagemProduct={ImageProd}
         dataProducts={AmazoniaContent.Amazonia_Therapy_Vitaoils_Shampoo}
-        color="#393647"
       />
       <Footer />
     </div>

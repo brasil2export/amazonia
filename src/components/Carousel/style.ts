@@ -20,19 +20,23 @@ export const Container = styled.header`
         left: 0;
         z-index: 1;
         bottom:0px;
-        background: rgba(0, 0, 0, 0.5);
+        background: #000000A5;
+
+
 
        @media(max-width: 700px){
         width: 100%;
         left: 0;
         z-index: 1;
         bottom:0px;
-        background-color: #000000;
+        background-color: ${props => props.theme.colors.black};
 
         h3{
             font-size: 32px;
         }
         }
+
+
        }
     }
 

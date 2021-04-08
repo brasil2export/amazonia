@@ -2,11 +2,19 @@ import styled from 'styled-components'
 
 
 export const Container = styled.header`
+    .navbar-dark .navbar-nav .nav-link{
+            color:${props => props.theme.colors.menuAndFotterTextColor};
 
+            &:hover {
+                color:${props => props.theme.colors.menuAndFotterTextColorHover};
+            }
+        }
     
     nav{
-        background-color: black;
+        background-color: ${props => props.theme.colors.menuAndFotterBackground};
         max-height: 100px;
+
+        
 
         @media(max-width: 991px){
             max-height: none;
@@ -37,17 +45,17 @@ export const Container = styled.header`
     }
 
     .dropdown-menu{
-        background-color: black;
+        background-color: ${props => props.theme.colors.menuAndFotterBackground};
       
 
         .show{
-            color: white;
+            color:${props => props.theme.colors.menuAndFotterTextColor};
             a{
-                color: aliceblue;
+                color:${props => props.theme.colors.menuAndFotterTextColor};
                 transition: .2s;
                 &:hover{
                     color: ${props => props.theme.colors.primary};
-                    background-color: black;
+                    background-color: ${props => props.theme.colors.menuAndFotterBackground};
                 }
             }
         }

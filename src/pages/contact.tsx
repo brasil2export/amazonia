@@ -154,7 +154,7 @@ const Contact: React.FC = () => {
                 <label className="labelForm" htmlFor="email" >Email</label>
               </fieldset>
               <fieldset>
-                <label htmlFor="message">message</label>
+                <label htmlFor="message">Message</label>
                 <textarea required name="message" onChange={handleInputChange}></textarea>
               </fieldset>
 

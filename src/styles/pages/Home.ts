@@ -23,9 +23,7 @@ export const Container = styled.div`
 `
 
 export const WrapperContent = styled.main`
-.black{
-  background-color: #02000A;
-}
+
 
 
 .section2{
@@ -70,18 +68,22 @@ export const WrapperContent = styled.main`
 
             h2{
               font-weight:800;
-              color: ${props => props.theme.colors.primary};
+              color: ${({theme}) => theme.colors.primary};
               text-decoration:overline;
               line-height: 140px;
               font-size: 70px;
+              @media(max-width: 1300px){
+                text-align: center;
+                line-height: 110px;
+              }
+
               @media(max-width: 1000px){
                 order: -1;
-              text-align: center;
-              width: 100%;
-              line-height: 75px;
-              font-size: 50px;
-              margin: 0;
-
+                
+                width: 100%;
+                line-height: 75px;
+                font-size: 50px;
+                margin: 0;
             }
           }
         }
@@ -111,7 +113,7 @@ export const WrapperContent = styled.main`
   height: fit-content;
   min-height: 800px;
   padding: 60px;
-  background-color: gainsboro;
+  background-color: ${props => props.theme.colors.productsSectionColor};
 
   @media(max-width: 1000px){
     padding: 0;
@@ -124,7 +126,6 @@ export const WrapperContent = styled.main`
     margin-bottom: 50px;
     font-size: 64px;
     line-height: 72px;
-    color:black;
     font-weight: bold;
       @media(max-width: 800px){
         margin-bottom: 20px;
@@ -189,7 +190,7 @@ export const Banner = styled.div`
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #fff;
+    color: ${props => props.theme.colors.textInBlack};
     text-align: center;
     right: auto;
     bottom: auto;
@@ -217,6 +218,7 @@ export const Banner = styled.div`
       line-height: 110px;
       text-shadow: 5px 0 5px black;
       text-align: initial;
+      color: #FFFFFF;
 
       text-transform: uppercase;
 
@@ -244,6 +246,7 @@ export const Banner = styled.div`
       max-width: 600px;
       line-height: 32px;
       text-align: left;
+      color: #FFFFFFAA;
 
 
     }

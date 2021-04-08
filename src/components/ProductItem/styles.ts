@@ -55,7 +55,7 @@ export const ContainerGrid = styled.div`
       position: relative;
       display: flex;
       justify-content: space-between;
-      border-radius: 0px 0px 8px 8px;
+      border-radius: 0px 0px 6px 6px;
      
      .text{
       width: 80%;

@@ -12,7 +12,6 @@ export const Container = styled.div`
 .acordionContainer{
 
 
-
     .acordion{
         display: flex;
     flex-direction: column;
@@ -23,11 +22,12 @@ export const Container = styled.div`
     }
     .card-body{
         padding: 2.25rem;
+        background-color: ${props => props.theme.colors.background};
     }
 
     .card-header{
         padding-bottom: 0;
-        background-color: white;
+        background-color: ${props => props.theme.colors.background};
         display: flex;
         align-items: center;
         justify-content: center;
@@ -48,7 +48,7 @@ export const Container = styled.div`
         height: 100%;
         padding: 12px 16px;
         outline: none;
-       
+        background-color: ${props => props.theme.colors.productColorBase};       
         color: #fff;
         border: none;
         text-align: left;
@@ -109,7 +109,6 @@ justify-content: center;
 export const Content = styled.main`
 min-height: 100vh;
 width: 100%;
-background-color: #fefefe;
 display: grid;
 grid-template-columns: 1fr minmax(600px, 700px);
 
@@ -127,7 +126,7 @@ margin: 0 auto;
 
 .imagemWrapper{
 
-    
+    background-color: ${props => props.theme.colors.productColorBase};
     padding: 4%;
     display: flex;
     justify-content: flex-end;
@@ -172,6 +171,7 @@ margin: 0 auto;
             line-height: 59px;
             max-width: 700px;
             font-size: 42px;
+            color: ${props => props.theme.colors.productColorBase};
 
             @media (max-width: 1000px){
                 line-height: 52px;

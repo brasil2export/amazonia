@@ -2,8 +2,8 @@ import styled from 'styled-components'
 
 
 export const Container = styled.footer`
-    background-color: #000000;
-    color: #ffffff;
+    background-color: ${props => props.theme.colors.menuAndFotterBackground};
+    color: ${props => props.theme.colors.menuAndFotterTextColor};
     min-height: 400px;
     justify-content: center;
     display: flex;

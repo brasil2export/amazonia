@@ -25,7 +25,7 @@ const Menu: React.FC<menuProps> = () => {
 
   return (
     <Container>
-      <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
+      <Navbar collapseOnSelect expand="lg" variant="dark">
         <Navbar.Brand as="div">
           <Link href="/">
             {/* <Image ref={imgRef} src={logoAmazonia} width={150} height={80} quality={100}/> */}

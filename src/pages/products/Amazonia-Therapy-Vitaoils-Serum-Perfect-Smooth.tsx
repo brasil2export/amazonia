@@ -19,7 +19,6 @@ const Amazonia_Therapy_Vitaoils_Serum_Perfect_Smooth: React.FC = () => {
         imagemBanner={Amazonia_woman_bg_products}
         imagemProduct={ImageProd}
         dataProducts={AmazoniaContent.Amazonia_Therapy_Vitaoils_Serum_Perfect_Smooth}
-        color="#2A2938"
       />
       <Footer />
     </div>

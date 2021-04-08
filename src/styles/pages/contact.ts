@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 
-import bg from '../../assets/streetBG.jpg'
 
 export const Container = styled.div`
 
@@ -33,7 +32,7 @@ export const Container = styled.div`
    align-items: center;
    justify-content: center;
    z-index: 2;
-   color: white;
+   color:${props => props.theme.colors.fixedWhiteText};
    padding-top: 32px;
 
    @media(max-width: 900px){
@@ -45,7 +44,7 @@ export const Container = styled.div`
   z-index: 2;
    width: 100%;
    display: flex;
-   color: white;
+   color: ${props => props.theme.colors.textInBlack};
    padding: 5%;
 
    @media(max-width: 900px){
@@ -58,9 +57,9 @@ export const Container = styled.div`
   }
     .containerAdreess{
       flex:0.5;
-      color: white;
-     display: flex;
-     flex-direction: column;
+      color: ${props => props.theme.colors.textInBlack};
+      display: flex;
+      flex-direction: column;
      
 
 
@@ -85,6 +84,7 @@ export const Container = styled.div`
       p{
         max-width: 300px;
         text-align: justify;
+        color: ${props => props.theme.colors.fixedWhiteText};
       }
 
       }
@@ -119,6 +119,7 @@ export const Container = styled.div`
           transition: 400ms;
           span{
             margin-left: 24px; 
+            color: ${props => props.theme.colors.fixedWhiteText};
           }
           
           &:hover{
@@ -144,6 +145,7 @@ export const Container = styled.div`
 
       path{
           transition: 400ms;
+          fill:  ${props => props.theme.colors.fixedWhiteText}
       }
       &:hover path{
       
@@ -177,8 +179,8 @@ export const Container = styled.div`
   max-width: 500px;
   margin-top: 24px;
   padding: 32px;
-  background-color: white;
-  color: black;
+  background-color: ${props => props.theme.colors.background};
+  color:  ${props => props.theme.colors.text};
   border-radius: 8px;
   width: 100%;
 
@@ -217,8 +219,8 @@ export const Container = styled.div`
       padding: 12px 8px;
       outline: none;
       border: none;
-      border-bottom: 1px solid black;
-      background-color: transparent;
+      border-bottom: 1px solid  ${props => props.theme.colors.black};
+      background-color: ${props => props.theme.colors.background};
       width:100%;
   
       &:focus{
@@ -230,7 +232,8 @@ export const Container = styled.div`
   textarea{
     padding: 12px 8px;
     outline: none;
-    border: 1px solid black;
+    background-color: ${props => props.theme.colors.background};
+    border: 1px solid ${props => props.theme.colors.black};
   }
 
   button{

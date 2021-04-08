@@ -29,8 +29,8 @@ export const Conteiner = styled.main`
             z-index : 2;
             transform: translateX(-50%);
             padding: 32px;
-            background-color: white;
-            border: 1px solid black;
+            background-color: ${props => props.theme.colors.background};
+            border: 1px solid ${props => props.theme.colors.black};
 
 
   
@@ -48,7 +48,6 @@ export const Conteiner = styled.main`
             z-index : 2;
             transform: translateX(0);
             padding: 32px;
-            background-color: white;
             border: none;
 
             p{

@@ -36,7 +36,7 @@ const ProductPageBase: React.FC<productPageBaseProps> = ({imagemBanner, imagemPr
 
         <div className="contentWrapper">
           <div className="dicription">
-            <h2  style={{color: color}}>{`${dataProducts.description.substring(0, 160)}...`}</h2>
+            <h2  >{`${dataProducts.description.substring(0, 160)}...`}</h2>
           </div>
          
 
@@ -48,7 +48,7 @@ const ProductPageBase: React.FC<productPageBaseProps> = ({imagemBanner, imagemPr
             return (
               <Card key={`ID_${item.id}`}>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} eventKey={`${item.id}`}  style={{backgroundColor: color}}>
+                  <Accordion.Toggle as={Button} eventKey={`${item.id}`}  >
                     <span>{item.title}</span>
                     <span> + </span>
                   </Accordion.Toggle>
@@ -86,7 +86,7 @@ const ProductPageBase: React.FC<productPageBaseProps> = ({imagemBanner, imagemPr
 
         </div>
       
-        <div className="imagemWrapper" style={{backgroundColor: color}}>
+        <div className="imagemWrapper">
           <img src={imagemProduct} alt={dataProducts.title} />
         </div>
        
