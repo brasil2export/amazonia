@@ -27,6 +27,16 @@ export const Container = styled.header`
         img{
             margin-right: 20px;
             filter:  ${props => props.theme.filter.dark};
+            width: 170px;
+            height: 100px;
+            @media(max-width: 991px){
+            width: 150px;
+            height: 80px;
+          }
+          @media(max-width: 500px){
+            width: 112px;
+            height: 67px;
+          }
         }
         
     }
@@ -34,6 +44,11 @@ export const Container = styled.header`
         color: ${props => props.theme.colors.text};
         border-color: ${props => props.theme.colors.text};
         margin-right: 20px;
+
+        @media(max-width: 1000px){
+            margin-top: 50px;
+            margin-bottom: 24px;
+        }
 
         &:hover{
             color: ${props => props.theme.colors.background};

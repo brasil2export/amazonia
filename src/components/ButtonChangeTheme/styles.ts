@@ -15,7 +15,7 @@ transform: translateY(8%);
         transform: translateY(4px);
     }
 
-    @media (max-width: 500px){
+    @media (max-width: 1000px){
         transform: translateY(0px);
         right: 10px;
         top: unset;
