@@ -56,6 +56,7 @@ const Contact: React.FC = () => {
           setVerification("message sent successfully")
         } else {
           setVerification("error sending message")
+          console.log(res)
         }
 
       })
