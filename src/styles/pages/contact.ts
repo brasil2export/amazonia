@@ -219,6 +219,7 @@ export const Container = styled.div`
       padding: 12px 8px;
       outline: none;
       border: none;
+      color: ${props => props.theme.colors.text};
       border-bottom: 1px solid  ${props => props.theme.colors.black};
       background-color: ${props => props.theme.colors.background};
       width:100%;
@@ -230,8 +231,10 @@ export const Container = styled.div`
     }
   }
   textarea{
+    width:100%;
     padding: 12px 8px;
     outline: none;
+    color: ${props => props.theme.colors.text};
     background-color: ${props => props.theme.colors.background};
     border: 1px solid ${props => props.theme.colors.black};
   }
