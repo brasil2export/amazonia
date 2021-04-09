@@ -29,7 +29,7 @@ const Menu: React.FC<menuProps> = () => {
         <Navbar.Brand as="div">
           <Link href="/">
             {/* <Image ref={imgRef} src={logoAmazonia} width={150} height={80} quality={100}/> */}
-            <img src={logoAmazonia} width="150px" height="80px" alt="Logo Amazonia Therapy" />
+            <img src={logoAmazonia} width="170px" height="100px" alt="Logo Amazonia Therapy" />
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

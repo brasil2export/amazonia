@@ -18,6 +18,10 @@
   widthContantAbout: {
     height: '350px',
     heightTab: '400px',
+  },
+
+  filter: {
+    dark: `brightness(${1})`
   }
 }
 

@@ -102,6 +102,7 @@ export const Container = styled.div`
       }
 
       h5{
+        margin-left: 42px;
         text-align: center;
         margin-bottom: 32px;
         color: ${props => props.theme.colors.primary};

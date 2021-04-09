@@ -26,17 +26,18 @@ export const Container = styled.header`
 
         img{
             margin-right: 20px;
+            filter:  ${props => props.theme.filter.dark};
         }
         
     }
     .btn-outline-primary{
-        color: ${props => props.theme.colors.primary};
-        border-color: ${props => props.theme.colors.primary};
+        color: ${props => props.theme.colors.text};
+        border-color: ${props => props.theme.colors.text};
         margin-right: 20px;
 
         &:hover{
-            color: #fff;
-            background-color: ${props => props.theme.colors.primary};
+            color: ${props => props.theme.colors.background};
+            background-color: ${props => props.theme.colors.text};
         }
     }
     .navbar-toggler{
@@ -100,7 +101,7 @@ export const ButtonCatalog = styled.button`
     border: none;
     background-color: transparent;
     border: 2px solid;
-    border-color: ${props => props.theme.colors.primary};
+    border-color: ${props => props.theme.colors.text};
     cursor: pointer;
     color: #ffffff;
     font-size: 18px;
@@ -109,7 +110,7 @@ export const ButtonCatalog = styled.button`
 
 
     &:hover{
-        background-color: ${props => props.theme.colors.primary};
+        background-color: ${props => props.theme.colors.text};
         color: #ffffff;
     }
 

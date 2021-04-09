@@ -30,6 +30,7 @@ export const ContentFooter = styled.div`
 
        img{
            height: 150px;
+           filter:  ${props => props.theme.filter.dark};
        }
        @media(max-width: 900px){
            width: 100%;
