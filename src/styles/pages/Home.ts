@@ -228,13 +228,13 @@ export const Banner = styled.div`
       }
 
       @media(max-width: 700px){
-        font-size: 70px;
+        font-size: 50px;
        max-width: none;
        line-height: 85px;
       }
 
       @media(max-width: 450px){
-        font-size: 40px;
+        font-size: 32px;
         line-height: 48px;
       }
 

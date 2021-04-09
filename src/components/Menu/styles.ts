@@ -39,9 +39,14 @@ export const Container = styled.header`
             background-color: ${props => props.theme.colors.primary};
         }
     }
+    .navbar-toggler{
+            background-color: #000000aa;
+        }
 
     button{
         margin-left: 40px;
+        
+      
     }
 
     .dropdown-menu{

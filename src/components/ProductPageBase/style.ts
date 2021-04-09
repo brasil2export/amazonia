@@ -55,7 +55,7 @@ export const Container = styled.div`
         display: flex;
         justify-content: space-between;
 
-        @media (max-width: 1000px){
+        @media (max-width: 1300px){
             width: 100%;
         }
     }
@@ -179,7 +179,7 @@ margin: 0 auto;
             font-size: 42px;
             color: ${props => props.theme.colors.productColorBase};
 
-            @media (max-width: 1000px){
+            @media (max-width: 1300px){
                 line-height: 52px;
                 max-width: 700px;
                 font-size: 30px;

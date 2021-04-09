@@ -29,7 +29,8 @@ export const Container = styled.header`
         left: 0;
         z-index: 1;
         bottom:0px;
-        background-color: ${props => props.theme.colors.black};
+        background-color:  #000000A5;
+  
 
         h3{
             font-size: 32px;

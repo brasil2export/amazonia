@@ -9,7 +9,7 @@ import ButtonChangeTheme from '../components/ButtonChangeTheme'
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
 
-  const [toggleTheme, settoggleTheme] = useState(theme)
+  const [toggleTheme, settoggleTheme] = useState(themeDark)
 
   function toogleDarkTeme(e){
     settoggleTheme(toggleTheme == themeDark ? theme  : themeDark)
