@@ -3,7 +3,6 @@ import Head from 'next/head'
 // import Image from 'next/image'
 
 import Menu from '../components/Menu'
-import Link from 'next/link'
 import { Conteiner, Banner } from '../styles/pages/aboutUs'
 
 
