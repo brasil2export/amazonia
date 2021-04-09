@@ -57,6 +57,7 @@ const Contact: React.FC = () => {
         } else {
           setVerification("error sending message")
           console.log(res)
+          setIsDisabled(false)
         }
 
       })
@@ -116,10 +117,10 @@ const Contact: React.FC = () => {
                 <div className="containterPhoneAndEmail">
                   <div className="phone">
 
-                    <a href="tel:+551136377711"><FaPhone size={32} /><span>+55 11 3637 7711</span> </a>
+                    <a><FaPhone size={32} /><span>+55 11 3637 7711</span> </a>
                   </div>
                   <div className="email">
-                    <a href="mailto:info@amazoniatherapy.com.br"><SiGmail size={32} /><span>info@amazoniatherapy.com.br</span></a>
+                    <a><SiGmail size={32} /><span>info@amazoniatherapy.com.br</span></a>
                   </div>
                 </div>
 

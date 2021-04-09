@@ -50,9 +50,10 @@ return (
 
         <div className="email">
           <p>+55 11 3637 7711</p>
-          <a href="mailto:info@amazoniatherapy.com.br" target="_blank" rel="noopener noreferrer">
+          {/* <a href="mailto:info@amazoniatherapy.com.br" target="_blank" rel="noopener noreferrer">
           info@amazoniatherapy.com.br
-          </a>
+          </a> */}
+          <p>info@amazoniatherapy.com.br</p>
         </div>
 
       </div>
