@@ -55,7 +55,6 @@ const ProductPageBase: React.FC<productPageBaseProps> = ({imagemBanner, imagemPr
                 </Card.Header>
                 <Accordion.Collapse eventKey={`${item.id}`}>
                   <Card.Body>
-                    <h5>{item.title}</h5>
                    <p> {item.content}</p>
     
                    {item.size && <strong>Size: {item.size} </strong>}

@@ -10,11 +10,13 @@ const rotate = keyframes`
 
 export const Container = styled.div`
 .acordionContainer{
-
+    max-width: 550px;
+    margin: 0 auto;
 
     .acordion{
         display: flex;
     flex-direction: column;
+  
     }
 
     .card {
@@ -44,7 +46,7 @@ export const Container = styled.div`
     }
 
     button {
-        width: 50%;
+        width: 100%;
         height: 100%;
         padding: 12px 16px;
         outline: none;
@@ -54,6 +56,11 @@ export const Container = styled.div`
         text-align: left;
         display: flex;
         justify-content: space-between;
+
+        &:focus(){
+            outline: none;
+            border: none;
+        }
 
         @media (max-width: 1300px){
             width: 100%;
