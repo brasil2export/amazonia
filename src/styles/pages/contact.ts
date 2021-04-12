@@ -235,6 +235,7 @@ export const Container = styled.div`
     width:100%;
     padding: 12px 8px;
     outline: none;
+    resize: none;
     color: ${props => props.theme.colors.text};
     background-color: ${props => props.theme.colors.background};
     border: 1px solid ${props => props.theme.colors.black};
